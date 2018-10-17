@@ -3,6 +3,7 @@ package homework2;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeTest;
 
@@ -14,7 +15,7 @@ public class TestBase  {
 
   @BeforeTest
   public void SetUp(){
-    wd=new ChromeDriver();
+    wd=new FirefoxDriver();
     wd.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
   }
 
