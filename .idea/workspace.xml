@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f01d331-5e36-46f7-b844-2c800ff46d6d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FirstSeleniumProject/out/test/classes/homework2/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/FirstSeleniumProject/out/test/classes/homework2/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FirstSeleniumProject/src/test/java/homework2/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/FirstSeleniumProject/src/test/java/homework2/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/AddressDeleteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/AddressDeleteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/TestBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/FirstSeleniumProject/.gradle/" />
     <ignored path="$PROJECT_DIR$/FirstSeleniumProject/build/" />
@@ -50,16 +47,16 @@
     <session id="-697730131">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="3" />
           <entry key="project.open.time.17" value="2" />
-          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.27" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -78,13 +75,13 @@
         <counts>
           <entry key="dummy" value="9" />
           <entry key="gradle" value="2" />
-          <entry key="java" value="5722" />
+          <entry key="java" value="5765" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="2" />
-          <entry key="JAVA" value="5722" />
+          <entry key="JAVA" value="5765" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
@@ -104,22 +101,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/AddressEntryCreationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            <state relative-caret-position="165">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1575">
-              <caret line="127" column="24" lean-forward="true" selection-start-line="126" selection-start-column="14" selection-end-line="127" selection-end-column="24" />
+            <state relative-caret-position="270">
+              <caret line="116" column="27" selection-start-line="116" selection-start-column="14" selection-end-line="116" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3324#3325#0" expanded="true" />
+                <element signature="e#3347#3348#0" expanded="true" />
+                <element signature="e#3434#3435#0" expanded="true" />
+                <element signature="e#3504#3505#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,11 +129,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/AddressDeleteTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret column="31" selection-start-column="31" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -803,7 +801,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539795449527" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539800143944" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="jdk.selected.JAVA_MODULE" value="9" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -929,8 +927,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.AddressModificationTest" />
-        <item itemvalue="TestNG.AddressEntryCreationTests" />
         <item itemvalue="TestNG.AddressDeleteTest" />
+        <item itemvalue="TestNG.AddressEntryCreationTests" />
         <item itemvalue="TestNG.DeleteGroupTests" />
         <item itemvalue="TestNG.AddressModificationTest.testAddressModification" />
       </list>
@@ -950,18 +948,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddressDeleteTest - 2018.10.17 at 19h 31m 01s.xml">
-      <configuration name="AddressDeleteTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddressDeleteTest - 2018.10.17 at 19h 32m 08s.xml">
-      <configuration name="AddressDeleteTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddressDeleteTest - 2018.10.17 at 19h 33m 58s.xml">
-      <configuration name="AddressDeleteTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddressEntryCreationTests - 2018.10.17 at 19h 39m 25s.xml">
-      <configuration name="AddressEntryCreationTests" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="AddressModificationTest - 2018.10.17 at 19h 50m 59s.xml">
       <configuration name="AddressModificationTest" configurationId="TestNG" />
     </history-entry>
@@ -980,13 +966,25 @@
     <history-entry file="AddressModificationTest - 2018.10.17 at 19h 55m 40s.xml">
       <configuration name="AddressModificationTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="AddressModificationTest - 2018.10.17 at 21h 11m 46s.xml">
+      <configuration name="AddressModificationTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddressEntryCreationTests - 2018.10.17 at 21h 12m 20s.xml">
+      <configuration name="AddressEntryCreationTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddressDeleteTest - 2018.10.17 at 21h 12m 44s.xml">
+      <configuration name="AddressDeleteTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddressModificationTest - 2018.10.17 at 21h 14m 09s.xml">
+      <configuration name="AddressModificationTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4921191" visible="true" weight="0.27753934" />
-      <window_info id="Structure" order="1" sideWeight="0.5078809" side_tool="true" visible="true" weight="0.27753934" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49036777" visible="true" weight="0.2811159" />
+      <window_info id="Structure" order="1" sideWeight="0.50963223" side_tool="true" visible="true" weight="0.2811159" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -1116,9 +1114,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="14" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1133,9 +1128,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1150,10 +1142,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="352" selection-start-line="352" selection-end-line="352" />
-          <folding>
-            <element signature="e#3176#3177#0" expanded="true" />
-            <element signature="e#3221#3222#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1168,9 +1156,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="1374" selection-start-line="1374" selection-end-line="1374" />
-          <folding>
-            <element signature="e#48322#48323#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1192,9 +1177,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#456#457#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1209,9 +1191,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="728" selection-start-line="728" selection-end-line="728" />
-          <folding>
-            <element signature="e#17495#17496#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1219,12 +1198,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="321" selection-start-line="321" selection-end-line="321" />
-          <folding>
-            <element signature="e#11422#11423#0" expanded="true" />
-            <element signature="e#11459#11460#0" expanded="true" />
-            <element signature="e#14899#14900#0" expanded="true" />
-            <element signature="e#14943#14944#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1238,6 +1211,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/AddressDeleteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/AddressModificationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1245,30 +1225,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/AddressDeleteTest.java">
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/AddressEntryCreationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="127" column="24" lean-forward="true" selection-start-line="126" selection-start-column="14" selection-end-line="127" selection-end-column="24" />
+        <state relative-caret-position="270">
+          <caret line="116" column="27" selection-start-line="116" selection-start-column="14" selection-end-line="116" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3324#3325#0" expanded="true" />
+            <element signature="e#3347#3348#0" expanded="true" />
+            <element signature="e#3434#3435#0" expanded="true" />
+            <element signature="e#3504#3505#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/AddressEntryCreationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
         </state>
       </provider>
     </entry>

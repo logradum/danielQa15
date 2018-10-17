@@ -115,22 +115,12 @@ public class TestBase {
   }
 
   public void clickEditIcon() {
-
-    //By xpath
-   /* int i=0;
-    for ( ;wd.findElements(By.xpath("//a[@href='edit.php?id="+i+"']//img[@title='Edit']")).isEmpty(); i++){
+  wd.findElement(By.xpath("(//img[@title=\"Edit\"])[1]")).click();
   }
-    wd.findElement(By.xpath("//a[@href='edit.php?id="+i+"']//img[@title='Edit']")).click();
-  */
 
-    //By cssSelector
-    int i = 0;
-    for (; wd.findElements(By.cssSelector("table.sortcompletecallback-applyZebra:nth-child(2) tbody:nth-child(1) " +
-            "tr.odd:nth-child(" + i + ") td.center:nth-child(8) a:nth-child(1) > img:nth-child(1)")).isEmpty(); i++) {
-    }
-    wd.findElement(By.cssSelector("table.sortcompletecallback-applyZebra:nth-child(2) tbody:nth-child(1) " +
-            "tr.odd:nth-child(" + i + ") td.center:nth-child(8) a:nth-child(1) > img:nth-child(1)")).click();
-
+  public void submitDeleteAddress() {
+    wd.findElement(By.xpath("//input[@value='Delete']")).click();
   }
+
 }
 
