@@ -1,6 +1,7 @@
 package com.telRan.addressbook;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -41,10 +42,10 @@ public class TestBase {
     wd.findElement(By.name("submit")).click();
   }
 
-  public void fillGroupForm(String groupName, String groupHeader, String groupFooter) {
-    type(By.name("group_name"), groupName);
-    type(By.name("group_header"), groupHeader);
-    type(By.name("group_footer"), groupFooter);
+  public void fillGroupForm(Group group) {
+    type(By.name("group_name"), group.getGroupName());
+    type(By.name("group_header"), group.getGroupHeader());
+    type(By.name("group_footer"), group.getGroupFooter());
   }
 
   public void initGroupCreation() {
@@ -85,20 +86,14 @@ public class TestBase {
     wd.findElement(By.cssSelector("[name=submit]:nth-child(1)")).click();
   }
 
-  public void fillAddressForm() {
-    type(By.name("firstname"), "AddressAddedBySelenium1");
-    type(By.name("lastname"), "FamilyName1");
-    type(By.name("address"), "Shevchenko_1");
-    type(By.name("email"), "cheburashka@gmail.com");
-    type(By.name("mobile"), "+97222223222");
-  }
 
-  public void fillAddressForm(String modifAddressName, String modifFamilyName, String modifAddress, String modifEmail, String modifPhone) {
-    type(By.name("firstname"), modifAddressName);
-    type(By.name("lastname"), modifFamilyName);
-    type(By.name("address"), modifAddress);
-    type(By.name("email"), modifEmail);
-    type(By.name("mobile"), modifPhone);
+
+  public void fillAddressForm(Address address) {
+    type(By.name("firstname"), address.getAddressName());
+    type(By.name("lastname"), address.getFamilyName());
+    type(By.name("address"), address.getAddress());
+    type(By.name("email"), address.getEmail());
+    type(By.name("mobile"), address.getPhone());
   }
 
   public void openAddressEntryPage() {
@@ -109,10 +104,10 @@ public class TestBase {
     wd.findElement(By.cssSelector("[name='update']:nth-child(1)")).click();
   }
 
-  public void modificateAddressForm() {
-    fillAddressForm("nameModificated", "nameModificated", "addressModificated",
-            "Email@dot.modificated", "+9725555555Modif");
-  }
+ /* public void modificateAddressForm() {
+    fillAddressForm(
+            new Address("nameModificated", "nameModificated", "addressModificated", "Email@dot.modificated", "+9725555555Modif"));
+  }*/
 
   public void clickEditIcon() {
   wd.findElement(By.xpath("(//img[@title=\"Edit\"])[1]")).click();
@@ -122,5 +117,46 @@ public class TestBase {
     wd.findElement(By.xpath("//input[@value='Delete']")).click();
   }
 
+  private boolean isElementPresent(By locator) {
+    try {
+      wd.findElement(locator);
+      return true;
+    } catch (NoSuchElementException e) {
+      return false;
+    }
+  }
+
+  public boolean isGroupPresent(){
+    return isElementPresent(By.name("selected[]"));
+  }
+
+  public void createGroup() {
+    initGroupCreation();
+    fillGroupForm(new Group()
+            .setGroupName("QA15")
+            .setGroupHeader("TheTestingHeader")
+            .setGroupFooter("TheTestingFooter"));
+    submitGroupCreation();
+    returnToGroupsPage();
+  }
+
+  public void deleteGroup() {
+    wd.findElement(By.xpath("//input[@name='delete'][2]")).click();
+  }
+
+  public void createAddress() {
+    openAddressEntryPage();
+    fillAddressForm(new Address()
+            .setAddressName("AddressAddedBySelenium2")
+            .setFamilyName("FamilyName2")
+            .setEmail("Shevchenko_2")
+            .setAddress("cheburashka@gmail.com")
+            .setPhone("+97222255555"));
+    submitAddressEntryCreation();
+  }
+
+  public boolean isAddressPresent() {
+  return isElementPresent(By.name("selected[]"));
+  }
 }
 

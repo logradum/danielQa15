@@ -1,8 +1,15 @@
 package com.telRan.addressbook;
 
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class AddressDeleteTest extends TestBase {
+public class AddressDeletionTests extends TestBase {
+  @BeforeMethod
+  public void preconditions(){
+    if (!isAddressPresent()){
+      createAddress();
+    }
+  }
 
   @Test
   public void testAddressDelete() throws InterruptedException {
@@ -11,5 +18,4 @@ public class AddressDeleteTest extends TestBase {
     Thread.sleep(3000);
     isHomePage();
   }
-
 }
