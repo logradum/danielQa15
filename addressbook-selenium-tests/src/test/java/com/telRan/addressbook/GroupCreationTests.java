@@ -1,18 +1,22 @@
 package com.telRan.addressbook;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class GroupCreationTests extends TestBase {
 
   @Test
   public void testGroupCreation() {
-    openGroupsPage();
-    initGroupCreation();
-    fillGroupForm(new Group()
+    app.openGroupsPage();
+    int before = app.getGroupsCount();
+    app.initGroupCreation();
+    app.fillGroupForm(new Group()
             .setGroupName("QA15")
             .setGroupHeader("TheTestingHeader")
             .setGroupFooter("TheTestingFooter"));
-    submitGroupCreation();
-    returnToGroupsPage();
+    app.submitGroupCreation();
+    app.returnToGroupsPage();
+    int after = app.getGroupsCount();
+    Assert.assertEquals(after,before+1);
   }
 
 }

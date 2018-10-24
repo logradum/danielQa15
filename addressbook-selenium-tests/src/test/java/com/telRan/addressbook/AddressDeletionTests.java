@@ -6,16 +6,16 @@ import org.testng.annotations.Test;
 public class AddressDeletionTests extends TestBase {
   @BeforeMethod
   public void preconditions(){
-    if (!isAddressPresent()){
-      createAddress();
+    if (!app.isAddressPresent()){
+      app.createAddress();
     }
   }
 
   @Test
   public void testAddressDelete() throws InterruptedException {
-    clickEditIcon();
-    submitDeleteAddress();
+    app.clickEditIcon();
+    app.submitDeleteAddress();
     Thread.sleep(3000);
-    isHomePage();
+    app.isHomePage();
   }
 }
