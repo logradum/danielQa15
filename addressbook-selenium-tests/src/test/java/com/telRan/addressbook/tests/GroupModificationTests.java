@@ -1,4 +1,5 @@
-package com.telRan.addressbook;
+package com.telRan.addressbook.tests;
+import com.telRan.addressbook.model.Group;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -20,7 +21,7 @@ public class GroupModificationTests extends TestBase{
     app.getGroupHelper().selectGroup();
     app.getGroupHelper().initGroupModification();
     app.getGroupHelper().fillGroupForm(new Group().setGroupHeader("modifyed").setGroupName("new").setGroupFooter("changed"));
-    app.submitModification();
+    app.submitGroupModification();
     app.getGroupHelper().returnToGroupsPage();
   }
 
