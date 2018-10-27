@@ -11,4 +11,5 @@ public class NavigationHelper extends HelperBase{
   public void openSite(String url) {
     wd.get(url);
   }
+
 }
