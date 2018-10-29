@@ -1,4 +1,4 @@
-package com.telran.qa15;
+package com.telran.qa15.data;
 
 public class Team {
   private String teamName;

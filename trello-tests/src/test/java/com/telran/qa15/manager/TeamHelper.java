@@ -1,60 +1,22 @@
-package com.telran.qa15;
+package com.telran.qa15.manager;
 
+import com.telran.qa15.data.Team;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
 
 import java.util.Random;
-import java.util.concurrent.TimeUnit;
 
-public class TestBase {
+public class TeamHelper extends HelperBase{
+
   public String modificatedRandomName;
-  WebDriver wd;
 
-  @BeforeClass
-  public void setUp() throws InterruptedException {
-    wd = new ChromeDriver();
-    wd.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-    Thread.sleep(3000);
-    start("logradum@gmail.com", "klop1913");
-  }
-
-  public void click(By locator) {
-    wd.findElement(locator).click();
-  }
-
-  public void fillLoginForm(String login, String pass) {
-    type(By.name("user"), login);
-    type(By.name("password"), pass);
-  }
-
-  public void type(By locator, String input) {
-    click(locator);
-    wd.findElement(locator).clear();
-    wd.findElement(locator).sendKeys(input);
-  }
-
-  public void start(String login, String pass) {
-    wd.navigate().to("https://trello.com");
-    try {
-      click(By.xpath("//*[@class='global-header-section-button']"));
-    } catch (Exception e) {
-      click(By.xpath("//a[@class='header-button-secondary']"));
-    }
-    fillLoginForm(login, pass);
-    click(By.id("login"));
+  public TeamHelper(WebDriver wd) {
+    super(wd);
   }
 
   public void fillTeamCreationForm(Team team) {
     type(By.id("org-display-name"), team.getTeamName());
     type(By.id("org-desc"), team.getTeamDescription());
-  }
-
-  @AfterClass
-  public void tearDown(){
-    wd.quit();
   }
 
   public int getTeamsCount() {
@@ -80,7 +42,6 @@ public class TestBase {
   }
 
   public int getModificatedTeamsCount() {
-
     return wd.findElements(By.xpath("//*[text()='" + modificatedRandomName + "']")).size();
   }
 
