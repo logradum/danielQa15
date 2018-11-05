@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.qa15.tests.TeamDelitionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-11-05T14:16:26" hostname="MacBook-Air-Daniel.local" time="2.096">
+  <properties/>
+  <testcase name="testTeamDelition" classname="com.telran.qa15.tests.TeamDelitionTest" time="2.096"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -11,7 +11,7 @@ public class AddressModificationTests extends TestBase {
     }
   }
   @Test
-  public void testAddressModification() throws InterruptedException {
+  public void testAddressModification() {
     app.getAddressHelper().clickEditIcon();
     app.getAddressHelper().fillAddressForm(new Address()
             .setAddressName("SeleniumModif")
@@ -20,7 +20,6 @@ public class AddressModificationTests extends TestBase {
             .setEmail("modify@i.net")
             .setPhone("+9720503345543"));
     app.getAddressHelper().submitAddressUpdate();
-    app.returnToHome();
-    //app.isHomePage();
+    app.getNavigationHelper().returnToHome();
   }
 }

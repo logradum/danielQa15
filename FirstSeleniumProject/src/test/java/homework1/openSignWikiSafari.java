@@ -23,16 +23,19 @@ public class openSignWikiSafari {
     wd.navigate().to("https://en.wikipedia.org");
     wd.findElement(By.linkText("Log in")).click();
 
-    wd.findElement(By.id("wpName1")).click();
-    wd.findElement(By.id("wpName1")).clear();
-    wd.findElement(By.id("wpName1")).sendKeys("Logradum");
 
-    wd.findElement(By.id("wpPassword1")).click();
-    wd.findElement(By.id("wpPassword1")).clear();
-    wd.findElement(By.id("wpPassword1")).sendKeys("iKVcCAkZDa9L3Dt");
+    type(By.cssSelector("[name=wpName]"), "Logradum");
+
+    type(By.id("wpPassword1"), "iKVcCAkZDa9L3Dt");
 
     wd.findElement(By.name("wploginattempt")).click();
 
+  }
+
+  public void type(By locator1, String value1) {
+    wd.findElement(locator1).click();
+    wd.findElement(locator1).clear();
+    wd.findElement(locator1).sendKeys(value1);
   }
 
 

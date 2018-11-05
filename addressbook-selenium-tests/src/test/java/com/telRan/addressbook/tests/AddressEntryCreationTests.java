@@ -13,7 +13,7 @@ public class AddressEntryCreationTests extends TestBase {
   }
 
   @Test
-  public void testAddressEntryCreation() throws InterruptedException {
+  public void testAddressEntryCreation(){
     app.getAddressHelper().openAddressEntryPage();
     app.getAddressHelper().fillAddressForm(new Address()
             .setAddressName("AddressAddedBySelenium1")
@@ -23,7 +23,7 @@ public class AddressEntryCreationTests extends TestBase {
             .setAddress("hevchenko_1"));
     // addFoto();
     app.getAddressHelper().submitAddressEntryCreation();
-    app.returnToHome();
+    app.getNavigationHelper().returnToHome();
     app.getAddressHelper().isHomePage();
   }
 }

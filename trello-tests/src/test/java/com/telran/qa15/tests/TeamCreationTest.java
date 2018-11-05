@@ -9,7 +9,12 @@ public class TeamCreationTest extends TestBase{
   public void testTeamCreation() throws InterruptedException {
     int teamsBefore = app.getTeamHelper().getTeamsCount();
 
-    app.getTeamHelper().click(By.xpath("//*[contains(text(),'Create a team')]"));
+    try {
+      app.getTeamHelper().click(By.cssSelector("[class='icon-add icon-sm tab__tabIconSpan__jlnEo']"));
+    } catch (Exception e) {
+      app.getTeamHelper().click(By.cssSelector("[class='icon-add icon-sm tab__tabIconSpan__jlnEo']"));
+    }
+
     app.getTeamHelper().fillTeamCreationForm(new Team().setTeamName("FluentTeam").setTeamDescription("FluentDescription"));
     app.getTeamHelper().click(By.xpath("//*[@type='submit']"));
     Thread.sleep(1000);

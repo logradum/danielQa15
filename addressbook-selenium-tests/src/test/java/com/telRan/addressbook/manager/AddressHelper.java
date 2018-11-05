@@ -49,7 +49,7 @@ public class AddressHelper extends HelperBase {
     submitAddressEntryCreation();
   }
   public void isHomePage(){
-    Assert.assertEquals(wd.getCurrentUrl(), "http://localhost/addressbook/index.php");
+    Assert.assertEquals(isElementPresent(By.id("maintable")), true);
   }
 
   public boolean isAddressPresent() {

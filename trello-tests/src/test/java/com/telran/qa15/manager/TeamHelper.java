@@ -59,4 +59,11 @@ public class TeamHelper extends HelperBase{
   public void openEditTeamProfile() {
     click(By.xpath("//*[@class='button-link tabbed-pane-header-details-edit js-edit-profile']"));
   }
+
+  public void waitForCreateTeamElement(By locator){
+    waitElementTemporary(locator);
+  }
+  public void waitBlockedCreateTeamElement(){
+    waitBlockedElement();
+  }
 }

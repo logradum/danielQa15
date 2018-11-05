@@ -2,6 +2,9 @@ package com.telran.qa15.manager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import java.util.concurrent.TimeUnit;
 
 public class SessionHelper extends HelperBase{
   public SessionHelper(WebDriver wd) {
@@ -21,5 +24,7 @@ public class SessionHelper extends HelperBase{
     }
     fillLoginForm(login, pass);
     click(By.id("login"));
+
   }
+
 }
