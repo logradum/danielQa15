@@ -20,7 +20,7 @@ test{
     useTestNG{
         suites 'src/test/resources/testng.xml'
     }
-    if (projects.hasProperty('browser')) {
+    if (project.hasProperty('browser')) {
         systemProperty 'browser', "${browser}"
     }
 }
