@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4f01d331-5e36-46f7-b844-2c800ff46d6d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tests/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tests/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trello-tests/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/trello-tests/build.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/FirstSeleniumProject/.gradle/" />
@@ -73,7 +72,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gradle" value="24" />
+          <entry key="gradle" value="25" />
           <entry key="gradlew" value="1" />
           <entry key="html" value="8" />
           <entry key="java" value="283" />
@@ -83,7 +82,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="24" />
+          <entry key="Groovy" value="25" />
           <entry key="HTML" value="8" />
           <entry key="JAVA" value="283" />
           <entry key="PLAIN_TEXT" value="1" />
@@ -94,14 +93,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="120" />
-          <entry key="gradle" value="159" />
+          <entry key="gradle" value="160" />
           <entry key="java" value="11566" />
           <entry key="xml" value="153" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="159" />
+          <entry key="Groovy" value="160" />
           <entry key="JAVA" value="11566" />
           <entry key="PLAIN_TEXT" value="120" />
           <entry key="XML" value="153" />
@@ -136,6 +135,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FirstSeleniumProject/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -148,7 +156,7 @@
         <entry file="file://$PROJECT_DIR$/trello-tests/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -205,15 +213,6 @@
                 <element signature="e#289#290#0" expanded="true" />
                 <element signature="e#330#331#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/3.141.0/2a4d605a6300b8b915ac7ec29ffab37f96ba084b/selenium-support-3.141.0-sources.jar!/org/openqa/selenium/support/ui/FluentWait.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="271" selection-start-line="271" selection-end-line="271" />
             </state>
           </provider>
         </entry>
@@ -712,13 +711,13 @@
         <entry key="$PROJECT_DIR$/FirstSeleniumProject/build.gradle" value="246193861" />
         <entry key="$PROJECT_DIR$/FirstSeleniumProject/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
         <entry key="$PROJECT_DIR$/FirstSeleniumProject/settings.gradle" value="1991600229" />
-        <entry key="$PROJECT_DIR$/addressbook-selenium-tests" value="9247892184000" />
+        <entry key="$PROJECT_DIR$/addressbook-selenium-tests" value="9247898776000" />
         <entry key="$PROJECT_DIR$/addressbook-selenium-tests/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/addressbook-selenium-tests/build.gradle" value="2286059877" />
         <entry key="$PROJECT_DIR$/addressbook-selenium-tests/gradle/wrapper/gradle-wrapper.properties" value="2585518924" />
         <entry key="$PROJECT_DIR$/addressbook-selenium-tests/settings.gradle" value="2216963248" />
         <entry key="$PROJECT_DIR$/trello-tests/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/trello-tests/build.gradle" value="3733480708" />
+        <entry key="$PROJECT_DIR$/trello-tests/build.gradle" value="2947203914" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1070,7 +1069,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="35" />
     <option name="y" value="37" />
     <option name="width" value="1405" />
@@ -1101,6 +1100,17 @@
               <item name="FirstSeleniumProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="trello-tests" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FirstSeleniumProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trello-tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstSeleniumProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trello-tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -1108,7 +1118,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541694113210" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541700802265" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="jdk.selected.JAVA_MODULE" value="9" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -1143,7 +1153,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TeamCreationTest">
+  <component name="RunManager" selected="TestNG.&lt;default&gt;">
     <configuration name="TeamCreationTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="trello_test_test" />
       <extension name="coverage">
@@ -1195,16 +1205,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/logradum/Documents/Tools/danielQa15/trello-tests/src/test/resources/testing.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="trello_test_test" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/trello-tests/src/test/resources/testing.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="/Users/logradum/Documents/Tools/danielQa15/trello-tests/src/test/resources/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="trello_test_test" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/trello-tests/src/test/resources/testng.xml" />
@@ -1215,20 +1215,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="trello_test_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="TestNG./Users/logradum/Documents/Tools/danielQa15/trello-tests/src/test/resources/testing.xml" />
       <item itemvalue="TestNG.TeamDelitionTest" />
       <item itemvalue="TestNG./Users/logradum/Documents/Tools/danielQa15/trello-tests/src/test/resources/testng.xml" />
       <item itemvalue="TestNG.TeamCreationTest" />
       <item itemvalue="TestNG.TeamCreationTest.testTeamCreation" />
+      <item itemvalue="TestNG.&lt;default&gt;" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.&lt;default&gt;" />
         <item itemvalue="TestNG.TeamCreationTest" />
         <item itemvalue="TestNG.TeamCreationTest.testTeamCreation" />
         <item itemvalue="TestNG.TeamDelitionTest" />
         <item itemvalue="TestNG./Users/logradum/Documents/Tools/danielQa15/trello-tests/src/test/resources/testng.xml" />
-        <item itemvalue="TestNG./Users/logradum/Documents/Tools/danielQa15/trello-tests/src/test/resources/testing.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -1246,9 +1256,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TeamCreationTest - 2018.11.05 at 15h 01m 54s.xml">
-      <configuration name="TeamCreationTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TeamCreationTest_testTeamCreation - 2018.11.05 at 15h 15m 37s.xml">
       <configuration name="TeamCreationTest.testTeamCreation" configurationId="TestNG" />
     </history-entry>
@@ -1276,13 +1283,16 @@
     <history-entry file="TeamCreationTest - 2018.11.05 at 16h 15m 12s.xml">
       <configuration name="TeamCreationTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_default_ - 2018.11.08 at 20h 13m 02s.xml">
+      <configuration name="&lt;default&gt;" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="35" y="37" width="1405" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.64128256" visible="true" weight="0.36683786" />
-      <window_info id="Structure" order="1" sideWeight="0.35871744" side_tool="true" visible="true" weight="0.36683786" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6406844" visible="true" weight="0.36683786" />
+      <window_info id="Structure" order="1" sideWeight="0.3593156" side_tool="true" visible="true" weight="0.36683786" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -1291,7 +1301,7 @@
       <window_info id="Favorites" order="7" sideWeight="0.50063694" side_tool="true" weight="0.26750183" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36433122" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36433122" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1299,7 +1309,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32866243" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="10" />
+      <window_info active="true" anchor="bottom" id="Build" order="10" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32866243" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24944974" />
@@ -1633,13 +1643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trello-tests/src/test/java/com/telran/qa15/tests/TeamCreationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1664,13 +1667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FirstSeleniumProject/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1678,10 +1674,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/trello-tests/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>

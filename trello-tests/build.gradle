@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'QA_15a'
+group 'aQA_15'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
