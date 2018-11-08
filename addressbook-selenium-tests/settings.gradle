@@ -1,4 +1,2 @@
 rootProject.name = 'addressbook-selenium-tests'
-includeFlat 'trello-tests'
-findProject(':trello-tests')?.name = 'trello_test'
 
