@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'QA_15'
+group 'QA_15a'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
@@ -20,7 +20,7 @@ test{
     useTestNG{
         suites 'src/test/resources/testng.xml'
     }
-    if (project.hasProperty('browser')) {
+    if (projects.hasProperty('browser')) {
         systemProperty 'browser', "${browser}"
     }
 }
