@@ -1,5 +1,7 @@
 package com.telRan.addressbook.tests;
 import com.telRan.addressbook.model.Address;
+import com.telRan.addressbook.model.Group;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 public class AddressEntryCreationTests extends TestBase {
@@ -26,4 +28,16 @@ public class AddressEntryCreationTests extends TestBase {
     app.getNavigationHelper().returnToHome();
     app.getAddressHelper().isHomePage();
   }
+
+  @Test
+  public void testAddressEntryCreation1(){
+    app.getAddressHelper().openAddressEntryPage();
+
+    app.getAddressHelper().fillAddressForm(new Address()
+            .setAddressName("AddressAddedBySelenium1").setGroup("QA15"));
+    app.getAddressHelper().submitAddressEntryCreation();
+    app.getNavigationHelper().returnToHome();
+    app.getAddressHelper().isHomePage();
+  }
+
 }

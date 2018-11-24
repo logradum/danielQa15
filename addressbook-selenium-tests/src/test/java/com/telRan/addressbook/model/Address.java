@@ -6,7 +6,16 @@ public class Address {
   private String address;
   private String email;
   private String phone;
+  private String group;
 
+  public String getGroup() {
+    return group;
+  }
+
+  public Address setGroup(String group) {
+    this.group = group;
+    return this;
+  }
 
   public Address setAddressName(String addressName) {
     this.addressName=addressName;

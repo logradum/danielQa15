@@ -9,6 +9,17 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/FirstSeleniumProject" />
+            <option value="$PROJECT_DIR$/FirstSeleniumProject/cv-bank" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/actions-selenium" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/actions-selenium" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />
@@ -19,6 +30,16 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/addressbook-selenium-tests" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/trello-tests" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/trello-tests" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />

@@ -2,9 +2,15 @@ package com.telran.qa15.tests;
 import com.telran.qa15.data.Team;
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class TeamCreationTest extends TestBase{
+  @DataProvider
+  public Object[] getData() {
+
+    return new Object[0];
+  }
   @Test
   public void testTeamCreation() throws InterruptedException {
     int teamsBefore = app.getTeamHelper().getTeamsCount();

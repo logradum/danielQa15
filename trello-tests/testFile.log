@@ -1,0 +1,4 @@
+20527 [main] INFO  com.telran.qa15.tests.TestBase - Start test: public void com.telran.qa15.tests.TeamCreationTest.testTeamCreation() throws java.lang.InterruptedException
+27679 [main] INFO  com.telran.qa15.tests.TestBase - Stop test: public void com.telran.qa15.tests.TeamCreationTest.testTeamCreation() throws java.lang.InterruptedException
+17703 [main] INFO  com.telran.qa15.tests.TestBase - Start test: public void com.telran.qa15.tests.TeamDeletionTest.testTeamDeletion()
+24057 [main] INFO  com.telran.qa15.tests.TestBase - Stop test: public void com.telran.qa15.tests.TeamDeletionTest.testTeamDeletion()

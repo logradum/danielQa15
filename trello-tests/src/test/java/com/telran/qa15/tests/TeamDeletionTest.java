@@ -2,9 +2,9 @@ package com.telran.qa15.tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TeamDelitionTest extends TestBase {
+public class TeamDeletionTest extends TestBase {
   @Test
-  public void testTeamDelition()  {
+  public void testTeamDeletion()  {
     int beforeTeam = app.getTeamHelper().getTeamsCount();
     app.getTeamHelper().openTeam();
     app.getTeamHelper().openTeamSettings();

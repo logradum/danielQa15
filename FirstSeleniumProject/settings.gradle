@@ -1,2 +1,4 @@
 rootProject.name = 'FirstSeleniumProject'
+include 'cv-bank'
+include 'cv-bank'
 

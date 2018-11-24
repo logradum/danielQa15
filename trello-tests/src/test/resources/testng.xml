@@ -3,7 +3,7 @@
     <test name="Teams" >
         <classes>
             <class name="com.telran.qa15.tests.TeamCreationTest" />
-            <class name="com.telran.qa15.tests.TeamDelitionTest" />
+            <class name="com.telran.qa15.tests.TeamDeletionTest" />
             <class name="com.telran.qa15.tests.TeamModificationTest" />
         </classes>
     </test>

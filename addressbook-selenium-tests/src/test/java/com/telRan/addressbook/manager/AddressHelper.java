@@ -3,6 +3,7 @@ package com.telRan.addressbook.manager;
 import com.telRan.addressbook.model.Address;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
 public class AddressHelper extends HelperBase {
@@ -20,6 +21,9 @@ public class AddressHelper extends HelperBase {
     type(By.name("address"), address.getAddress());
     type(By.name("email"), address.getEmail());
     type(By.name("mobile"), address.getPhone());
+
+    new Select(wd.findElement(By.name("new_group")))
+            .selectByVisibleText(address.getGroup());
   }
 
   public void openAddressEntryPage() {

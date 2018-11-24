@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="actions-selenium" external.linked.project.path="$MODULE_DIR$/../../actions-selenium" external.root.project.path="$MODULE_DIR$/../../actions-selenium" external.system.id="GRADLE" external.system.module.group="selenium" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../actions-selenium">
+      <excludeFolder url="file://$MODULE_DIR$/../../actions-selenium/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../actions-selenium/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../actions-selenium/out" />
+    </content>
+    <orderEntry type="jdk" jdkName="9" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
