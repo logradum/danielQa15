@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="automationpractice:main" external.linked.project.path="$MODULE_DIR$/../../automationpractice" external.root.project.path="$MODULE_DIR$/../../automationpractice" external.system.id="GRADLE" external.system.module.group="QA-15" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../automationpractice/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../automationpractice/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../automationpractice/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../automationpractice/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.testng:testng:6.14.3" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.2.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.beust:jcommander:1.72" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache-extras.beanshell:bsh:2.0b6" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.2.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
+  </component>
+</module>

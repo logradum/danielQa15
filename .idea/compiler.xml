@@ -6,10 +6,14 @@
       <module name="actions-selenium_test" target="1.8" />
       <module name="addressbook-selenium-tests_main" target="1.8" />
       <module name="addressbook-selenium-tests_test" target="1.8" />
+      <module name="automationpractice_main" target="1.8" />
+      <module name="automationpractice_test" target="1.8" />
       <module name="cv-bank_main" target="1.8" />
       <module name="cv-bank_test" target="1.8" />
       <module name="FirstSeleniumProject_main" target="1.8" />
       <module name="FirstSeleniumProject_test" target="1.8" />
+      <module name="issta_main" target="1.8" />
+      <module name="issta_test" target="1.8" />
       <module name="trello-test_main" target="1.8" />
       <module name="trello-test_test" target="1.8" />
       <module name="trello-tests_main" target="1.8" />

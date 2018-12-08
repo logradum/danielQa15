@@ -60,10 +60,19 @@ public class TeamHelper extends HelperBase{
     click(By.xpath("//*[@class='button-link tabbed-pane-header-details-edit js-edit-profile']"));
   }
 
-  public void waitForCreateTeamElement(By locator){
-    waitElementTemporary(locator);
+  public void createTeam() throws InterruptedException {
+    try {
+      click(By.cssSelector("[class='icon-add icon-sm tab__tabIconSpan__jlnEo']"));
+    } catch (Exception e) {
+      click(By.cssSelector("[class='icon-add icon-sm tab__tabIconSpan__jlnEo']"));
+    }
+
+    fillTeamCreationForm(new Team().setTeamName("FluentTeam").setTeamDescription("FluentDescription"));
+    click(By.xpath("//*[@type='submit']"));
+    Thread.sleep(1000);
+    returnHomeIconClick();
+
   }
-  public void waitBlockedCreateTeamElement(){
-    waitBlockedElement();
-  }
+
+
 }

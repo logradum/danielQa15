@@ -1,6 +1,0 @@
-21:30:30.768 [main] INFO  com.telran.qa15.tests.TestBase - Start test: public void com.telran.qa15.tests.TeamCreationTest.testTeamCreation() throws java.lang.InterruptedException
-21:30:40.658 [main] INFO  com.telran.qa15.tests.TestBase - Stop test: public void com.telran.qa15.tests.TeamCreationTest.testTeamCreation() throws java.lang.InterruptedException
-21:30:40.666 [main] INFO  com.telran.qa15.tests.TestBase - Start test: public void com.telran.qa15.tests.TeamDeletionTest.testTeamDeletion()
-21:30:42.969 [main] INFO  com.telran.qa15.tests.TestBase - Stop test: public void com.telran.qa15.tests.TeamDeletionTest.testTeamDeletion()
-21:30:42.972 [main] INFO  com.telran.qa15.tests.TestBase - Start test: public void com.telran.qa15.tests.TeamModificationTest.testTeamModification()
-21:30:45.734 [main] INFO  com.telran.qa15.tests.TestBase - Stop test: public void com.telran.qa15.tests.TeamModificationTest.testTeamModification()

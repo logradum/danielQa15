@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FirstSeleniumProject.iml" filepath="$PROJECT_DIR$/.idea/modules/FirstSeleniumProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FirstSeleniumProject_main.iml" filepath="$PROJECT_DIR$/.idea/modules/FirstSeleniumProject_main.iml" group="FirstSeleniumProject" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FirstSeleniumProject_test.iml" filepath="$PROJECT_DIR$/.idea/modules/FirstSeleniumProject_test.iml" group="FirstSeleniumProject" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/actions-selenium.iml" filepath="$PROJECT_DIR$/.idea/modules/actions-selenium.iml" />
@@ -11,6 +10,10 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/addressbook-selenium-tests.iml" filepath="$PROJECT_DIR$/.idea/modules/addressbook-selenium-tests.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/addressbook-selenium-tests_main.iml" filepath="$PROJECT_DIR$/.idea/modules/addressbook-selenium-tests_main.iml" group="addressbook-selenium-tests" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/addressbook-selenium-tests_test.iml" filepath="$PROJECT_DIR$/.idea/modules/addressbook-selenium-tests_test.iml" group="addressbook-selenium-tests" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/automationpractice.iml" filepath="$PROJECT_DIR$/.idea/modules/automationpractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/automationpractice_main.iml" filepath="$PROJECT_DIR$/.idea/modules/automationpractice_main.iml" group="automationpractice" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/automationpractice_test.iml" filepath="$PROJECT_DIR$/.idea/modules/automationpractice_test.iml" group="automationpractice" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.project.issta.iml" filepath="$PROJECT_DIR$/.idea/modules/com.project.issta.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cv-bank/cv-bank.iml" filepath="$PROJECT_DIR$/.idea/modules/cv-bank/cv-bank.iml" group="cv-bank" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cv-bank/cv-bank_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cv-bank/cv-bank_main.iml" group="cv-bank" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cv-bank/cv-bank_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cv-bank/cv-bank_test.iml" group="cv-bank" />

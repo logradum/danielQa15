@@ -35,6 +35,26 @@
         <option name="useAutoImport" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/automationpractice" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/automationpractice" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/com.project.issta" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/com.project.issta" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/trello-tests" />
         <option name="modules">

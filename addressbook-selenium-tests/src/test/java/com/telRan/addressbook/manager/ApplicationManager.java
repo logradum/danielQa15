@@ -36,6 +36,7 @@ public class ApplicationManager {
     groupHelper = new GroupHelper(wd);
     addressHelper = new AddressHelper(wd);
 
+
   }
 
 

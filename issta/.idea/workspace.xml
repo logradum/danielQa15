@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="de4fde7f-1ae4-494b-a5d6-dfbfcbf29c62" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../issta_pot/src/test/java/OrderFlightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstSeleniumProject/out/test/classes/com/telran/qa15/sandbox/lesson1/Ebay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstSeleniumProject/src/test/java/com/telran/qa15/sandbox/lesson1/Ebay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../addressbook-selenium-tests/out/test/classes/com/telRan/addressbook/manager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-selenium-tests/out/test/classes/com/telRan/addressbook/manager/ApplicationManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../addressbook-selenium-tests/out/test/classes/com/telRan/addressbook/tests/GroupCreationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-selenium-tests/out/test/classes/com/telRan/addressbook/tests/GroupCreationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../addressbook-selenium-tests/src/test/java/com/telRan/addressbook/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-selenium-tests/src/test/java/com/telRan/addressbook/manager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../addressbook-selenium-tests/src/test/java/com/telRan/addressbook/tests/GroupCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../addressbook-selenium-tests/src/test/java/com/telRan/addressbook/tests/GroupCreationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trello-tests/log-20181123T191555.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trello-tests/out/test/classes/com/telran/qa15/manager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../trello-tests/out/test/classes/com/telran/qa15/manager/ApplicationManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trello-tests/out/test/classes/com/telran/qa15/manager/HelperBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../trello-tests/out/test/classes/com/telran/qa15/manager/HelperBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trello-tests/out/test/classes/com/telran/qa15/manager/NavigationHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../trello-tests/out/test/classes/com/telran/qa15/manager/NavigationHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trello-tests/out/test/classes/com/telran/qa15/manager/SessionHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../trello-tests/out/test/classes/com/telran/qa15/manager/SessionHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trello-tests/out/test/classes/com/telran/qa15/manager/TeamHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../trello-tests/out/test/classes/com/telran/qa15/manager/TeamHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trello-tests/out/test/classes/com/telran/qa15/tests/TeamCreationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../trello-tests/out/test/classes/com/telran/qa15/tests/TeamCreationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trello-tests/out/test/classes/com/telran/qa15/tests/TeamDeletionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../trello-tests/out/test/classes/com/telran/qa15/tests/TeamDeletionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trello-tests/out/test/classes/com/telran/qa15/tests/TestBase$MyListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trello-tests/out/test/classes/com/telran/qa15/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../trello-tests/out/test/classes/com/telran/qa15/tests/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trello-tests/src/test/java/com/telran/qa15/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trello-tests/src/test/java/com/telran/qa15/manager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trello-tests/src/test/java/com/telran/qa15/manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trello-tests/src/test/java/com/telran/qa15/manager/HelperBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trello-tests/src/test/java/com/telran/qa15/manager/NavigationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trello-tests/src/test/java/com/telran/qa15/manager/NavigationHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trello-tests/src/test/java/com/telran/qa15/manager/SessionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trello-tests/src/test/java/com/telran/qa15/manager/SessionHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trello-tests/src/test/java/com/telran/qa15/manager/TeamHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trello-tests/src/test/java/com/telran/qa15/manager/TeamHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trello-tests/src/test/java/com/telran/qa15/tests/TeamCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trello-tests/src/test/java/com/telran/qa15/tests/TeamCreationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trello-tests/src/test/java/com/telran/qa15/tests/TeamDeletionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trello-tests/src/test/java/com/telran/qa15/tests/TeamDeletionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trello-tests/src/test/java/com/telran/qa15/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../trello-tests/src/test/java/com/telran/qa15/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trello-tests/testFile.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trello-tests/trelloLog-20181123T213010.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trello-tests/trelloLog-20181123T213431.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trello-tests/trelloLog-20181123T213653.log" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1779448795">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="40" />
+    <option name="y" value="23" />
+    <option name="width" value="1400" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="issta" type="b2602c69:ProjectViewProjectNode" />
+              <item name="issta" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="issta" type="b2602c69:ProjectViewProjectNode" />
+              <item name="issta" type="462c0819:PsiDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de4fde7f-1ae4-494b-a5d6-dfbfcbf29c62" name="Default Changelist" comment="" />
+      <created>1544004134146</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544004134146</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="40" y="23" width="1400" height="877" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Learn" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+</project>

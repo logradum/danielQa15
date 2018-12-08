@@ -7,13 +7,16 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.concurrent.TimeUnit;
 
 public class SessionHelper extends HelperBase{
+
+
   public SessionHelper(WebDriver wd) {
     super(wd);
+
   }
 
-  public void fillLoginForm(String login, String pass) {
-    type(By.name("user"), login);
-    type(By.name("password"), pass);
+  public void fillLoginForm(String adminLogin, String adminPassword) {
+    type(By.name("user"), adminLogin);
+    type(By.name("password"), adminPassword);
   }
 
   public void login(String login, String pass) {

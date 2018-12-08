@@ -1,2 +1,0 @@
-19:16:13.038 [main] INFO  com.telran.qa15.tests.TestBase - Start test: public void com.telran.qa15.tests.TeamDeletionTest.testTeamDeletion()
-19:16:19.917 [main] INFO  com.telran.qa15.tests.TestBase - Stop test: public void com.telran.qa15.tests.TeamDeletionTest.testTeamDeletion()

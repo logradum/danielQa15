@@ -13,8 +13,6 @@ import java.util.List;
 
 public class GroupCreationTests extends TestBase {
 
-
-
   @DataProvider
   public Iterator <Object[]> validGroups() throws IOException {
 
