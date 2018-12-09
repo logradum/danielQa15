@@ -2,42 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f01d331-5e36-46f7-b844-2c800ff46d6d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/FirstSeleniumProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/FirstSeleniumProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/addressbook-selenium-tests_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/addressbook-selenium-tests_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FirstSeleniumProject/out/test/classes/com/telran/qa15/sandbox/lesson1/Ebay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FirstSeleniumProject/src/test/java/com/telran/qa15/sandbox/lesson1/Ebay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tests/out/test/classes/com/telRan/addressbook/manager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tests/out/test/classes/com/telRan/addressbook/manager/ApplicationManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tests/out/test/classes/com/telRan/addressbook/tests/GroupCreationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tests/out/test/classes/com/telRan/addressbook/tests/GroupCreationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/manager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/tests/GroupCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/tests/GroupCreationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-tests/log-20181123T191555.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-tests/out/test/classes/com/telran/qa15/manager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/trello-tests/out/test/classes/com/telran/qa15/manager/ApplicationManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-tests/out/test/classes/com/telran/qa15/manager/HelperBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/trello-tests/out/test/classes/com/telran/qa15/manager/HelperBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-tests/out/test/classes/com/telran/qa15/manager/NavigationHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/trello-tests/out/test/classes/com/telran/qa15/manager/NavigationHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-tests/out/test/classes/com/telran/qa15/manager/SessionHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/trello-tests/out/test/classes/com/telran/qa15/manager/SessionHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-tests/out/test/classes/com/telran/qa15/manager/TeamHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/trello-tests/out/test/classes/com/telran/qa15/manager/TeamHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-tests/out/test/classes/com/telran/qa15/tests/TeamCreationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/trello-tests/out/test/classes/com/telran/qa15/tests/TeamCreationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-tests/out/test/classes/com/telran/qa15/tests/TeamDeletionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/trello-tests/out/test/classes/com/telran/qa15/tests/TeamDeletionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-tests/out/test/classes/com/telran/qa15/tests/TestBase$MyListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-tests/out/test/classes/com/telran/qa15/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/trello-tests/out/test/classes/com/telran/qa15/tests/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-tests/src/test/java/com/telran/qa15/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-tests/src/test/java/com/telran/qa15/manager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-tests/src/test/java/com/telran/qa15/manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-tests/src/test/java/com/telran/qa15/manager/HelperBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-tests/src/test/java/com/telran/qa15/manager/NavigationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-tests/src/test/java/com/telran/qa15/manager/NavigationHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-tests/src/test/java/com/telran/qa15/manager/SessionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-tests/src/test/java/com/telran/qa15/manager/SessionHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-tests/src/test/java/com/telran/qa15/manager/TeamHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-tests/src/test/java/com/telran/qa15/manager/TeamHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-tests/src/test/java/com/telran/qa15/tests/TeamCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-tests/src/test/java/com/telran/qa15/tests/TeamCreationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-tests/src/test/java/com/telran/qa15/tests/TeamDeletionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-tests/src/test/java/com/telran/qa15/tests/TeamDeletionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-tests/src/test/java/com/telran/qa15/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-tests/src/test/java/com/telran/qa15/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-tests/testFile.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-tests/trelloLog-20181123T213010.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-tests/trelloLog-20181123T213431.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-tests/trelloLog-20181123T213653.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tests/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tests/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automationpractice/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/automationpractice/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automationpractice/out/test/classes/Manager/AppManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/automationpractice/out/test/classes/Manager/AppManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automationpractice/out/test/classes/Manager/HelperBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/automationpractice/out/test/classes/Manager/HelperBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automationpractice/out/test/classes/Test/AddToCardTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/automationpractice/out/test/classes/Test/LogInTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/automationpractice/out/test/classes/Test/LogInTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automationpractice/out/test/classes/Test/SendMessageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/automationpractice/out/test/classes/Test/SendMessageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automationpractice/out/test/classes/Test/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/automationpractice/out/test/classes/Test/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automationpractice/src/test/java/Manager/AppManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/automationpractice/src/test/java/Manager/AppManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automationpractice/src/test/java/Manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/automationpractice/src/test/java/Manager/HelperBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automationpractice/src/test/java/Test/AddToCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/automationpractice/src/test/java/Test/AddToCartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automationpractice/src/test/java/Test/LogInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/automationpractice/src/test/java/Test/LogInTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automationpractice/src/test/java/Test/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/automationpractice/src/test/java/Test/TestBase.java" afterDir="false" />
     </list>
-    <list id="7f7ce0aa-16f4-43db-b89c-41829c03c8ed" name="chooseDepartureDirection" comment="">
-      <change afterPath="$PROJECT_DIR$/issta_pot/src/test/java/OrderFlightTest.java" afterDir="false" />
-    </list>
+    <list id="7f7ce0aa-16f4-43db-b89c-41829c03c8ed" name="chooseDepartureDirection" comment="" />
     <list id="069f4ffa-ce6c-4112-938a-67e6af6ff7d8" name="start" comment="" />
     <ignored path="$PROJECT_DIR$/FirstSeleniumProject/.gradle/" />
     <ignored path="$PROJECT_DIR$/FirstSeleniumProject/build/" />
@@ -104,6 +88,9 @@
         <task path="$PROJECT_DIR$/trello-tests">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/automationpractice">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -149,47 +136,48 @@
           <entry key="bat" value="1" />
           <entry key="bin" value="1" />
           <entry key="csv" value="1" />
-          <entry key="gradle" value="55" />
+          <entry key="gitignore" value="1" />
+          <entry key="gradle" value="61" />
           <entry key="gradlew" value="3" />
           <entry key="html" value="8" />
-          <entry key="java" value="445" />
+          <entry key="java" value="472" />
           <entry key="lock" value="2" />
           <entry key="log" value="24" />
           <entry key="properties" value="9" />
           <entry key="trello_test" value="1" />
           <entry key="txt" value="1" />
-          <entry key="xml" value="13" />
+          <entry key="xml" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="55" />
+          <entry key="Groovy" value="61" />
           <entry key="HTML" value="8" />
-          <entry key="JAVA" value="445" />
+          <entry key="JAVA" value="472" />
           <entry key="Log" value="23" />
-          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="PLAIN_TEXT" value="12" />
           <entry key="Properties" value="9" />
-          <entry key="XML" value="13" />
+          <entry key="XML" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="csv" value="11" />
           <entry key="dummy" value="153" />
-          <entry key="gradle" value="201" />
-          <entry key="java" value="21804" />
+          <entry key="gradle" value="211" />
+          <entry key="java" value="22163" />
           <entry key="properties" value="11" />
           <entry key="txt" value="39" />
-          <entry key="xml" value="252" />
+          <entry key="xml" value="291" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="201" />
-          <entry key="JAVA" value="21804" />
+          <entry key="Groovy" value="211" />
+          <entry key="JAVA" value="22163" />
           <entry key="PLAIN_TEXT" value="203" />
           <entry key="Properties" value="11" />
-          <entry key="XML" value="252" />
+          <entry key="XML" value="291" />
         </counts>
       </usages-collector>
     </session>
@@ -200,10 +188,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/automationpractice/src/test/java/Test/LogInTest.java">
+        <entry file="file://$PROJECT_DIR$/automationpractice/src/test/java/Test/AddToCartTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="356">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/automationpractice/src/test/java/Manager/CartHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/automationpractice/src/test/java/Test/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/automationpractice/src/test/java/Manager/HelperBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#793#794#0" expanded="true" />
+                <element signature="e#857#858#0" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#965#966#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1276,14 +1309,14 @@
         <entry key="$PROJECT_DIR$/actions-selenium/build.gradle" value="145759324" />
         <entry key="$PROJECT_DIR$/actions-selenium/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
         <entry key="$PROJECT_DIR$/actions-selenium/settings.gradle" value="1152532632" />
-        <entry key="$PROJECT_DIR$/addressbook-selenium-tests" value="6168742460000" />
+        <entry key="$PROJECT_DIR$/addressbook-selenium-tests" value="6170804231000" />
         <entry key="$PROJECT_DIR$/addressbook-selenium-tests/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/addressbook-selenium-tests/build.gradle" value="3960747077" />
+        <entry key="$PROJECT_DIR$/addressbook-selenium-tests/build.gradle" value="3085361086" />
         <entry key="$PROJECT_DIR$/addressbook-selenium-tests/gradle/wrapper/gradle-wrapper.properties" value="2585518924" />
         <entry key="$PROJECT_DIR$/addressbook-selenium-tests/settings.gradle" value="4019230670" />
-        <entry key="$PROJECT_DIR$/automationpractice" value="6176021677000" />
+        <entry key="$PROJECT_DIR$/automationpractice" value="6176729841000" />
         <entry key="$PROJECT_DIR$/automationpractice/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/automationpractice/build.gradle" value="3557933994" />
+        <entry key="$PROJECT_DIR$/automationpractice/build.gradle" value="2385613904" />
         <entry key="$PROJECT_DIR$/automationpractice/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
         <entry key="$PROJECT_DIR$/automationpractice/settings.gradle" value="43243351" />
         <entry key="$PROJECT_DIR$/com.project.issta" value="0" />
@@ -1993,12 +2026,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/tests/TestBase.java" />
-        <option value="$PROJECT_DIR$/addressbook-selenium-tests/src/test/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/actions-selenium/build.gradle" />
-        <option value="$PROJECT_DIR$/actions-selenium/src/main/java/TestBase.java" />
-        <option value="$PROJECT_DIR$/actions-selenium/src/main/java/Dragable.java" />
-        <option value="$PROJECT_DIR$/actions-selenium/src/main/java/Draggable.java" />
         <option value="$PROJECT_DIR$/actions-selenium/src/test/java/Draggable.java" />
         <option value="$PROJECT_DIR$/actions-selenium/src/test/java/Droppable.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/manager/HelperBase.java" />
@@ -2031,19 +2058,25 @@
         <option value="$PROJECT_DIR$/issta_pot/src/test/java/orderFlightTest.java" />
         <option value="$PROJECT_DIR$/issta_pot/src/test/java/Tests/TestBase.java" />
         <option value="$PROJECT_DIR$/issta_pot/src/test/java/OrderFlightTest.java" />
-        <option value="$PROJECT_DIR$/automationpractice/build.gradle" />
         <option value="$PROJECT_DIR$/automationpractice/src/test/java/Tests/Testbase.java" />
         <option value="$PROJECT_DIR$/automationpractice/src/test/java/RegistrationTest.java" />
         <option value="$PROJECT_DIR$/automationpractice/src/test/java/Model/ContactMessage.java" />
-        <option value="$PROJECT_DIR$/automationpractice/src/test/java/Test/TestBase.java" />
-        <option value="$PROJECT_DIR$/automationpractice/src/test/java/Manager/HelperBase.java" />
         <option value="$PROJECT_DIR$/automationpractice/src/test/java/Test/RegistrationTest.java" />
         <option value="$PROJECT_DIR$/automationpractice/src/test/java/Manager/RegistrationHelper.java" />
         <option value="$PROJECT_DIR$/automationpractice/src/test/java/Manager/ContactMessageHelper.java" />
-        <option value="$PROJECT_DIR$/automationpractice/src/test/java/Manager/AppManager.java" />
-        <option value="$PROJECT_DIR$/automationpractice/src/test/java/Test/LogInTest.java" />
         <option value="$PROJECT_DIR$/automationpractice/src/test/java/Test/AddToCardTest.java" />
         <option value="$PROJECT_DIR$/automationpractice/src/test/java/Test/SendMessageTest.java" />
+        <option value="$PROJECT_DIR$/automationpractice/src/test/java/Test/LogInTest.java" />
+        <option value="$PROJECT_DIR$/automationpractice/src/test/java/Manager/cartHelper.java" />
+        <option value="$PROJECT_DIR$/automationpractice/src/test/java/Test/AddToCartTest.java" />
+        <option value="$PROJECT_DIR$/automationpractice/src/test/java/Manager/HelperBase.java" />
+        <option value="$PROJECT_DIR$/automationpractice/src/test/java/Manager/CartHelper.java" />
+        <option value="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/tests/TestBase.java" />
+        <option value="$PROJECT_DIR$/automationpractice/src/test/java/Manager/AppManager.java" />
+        <option value="$PROJECT_DIR$/automationpractice/src/test/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/automationpractice/build.gradle" />
+        <option value="$PROJECT_DIR$/addressbook-selenium-tests/build.gradle" />
+        <option value="$PROJECT_DIR$/automationpractice/src/test/java/Test/TestBase.java" />
       </list>
     </option>
   </component>
@@ -2053,7 +2086,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="40" />
     <option name="y" value="23" />
     <option name="width" value="1400" />
@@ -2073,10 +2106,6 @@
           <expand>
             <path>
               <item name="FirstSeleniumProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="addressbook-selenium-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstSeleniumProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="automationpractice" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -2096,22 +2125,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstSeleniumProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automationpractice" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstSeleniumProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automationpractice" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FirstSeleniumProject" type="b2602c69:ProjectViewProjectNode" />
@@ -2132,7 +2145,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544262074025" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544362488573" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="jdk.selected.JAVA_MODULE" value="9" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/trello-tests/src/test/java/com/telran/qa15/tests" />
@@ -2150,19 +2163,19 @@
       <recent name="" />
       <recent name="com.telran.qa15.sandbox" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/addressbook-selenium-tests/out/test/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="homework1" />
+      <recent name="" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Manager" />
       <recent name="Tests" />
       <recent name="com.telran.qa15.tests" />
       <recent name="com.telran.qa15" />
       <recent name="com.telRan.addressbook.manager" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="homework1" />
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/addressbook-selenium-tests/out/test/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -2177,7 +2190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.AddToCartTest">
+  <component name="RunManager">
     <configuration name="AddToCartTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automationpractice_test" />
       <extension name="coverage">
@@ -2188,24 +2201,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="Test" />
       <option name="MAIN_CLASS_NAME" value="Test.AddToCartTest" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AddToCartTest.testAdditionToCard" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automationpractice_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.AddToCartTest" />
-      <option name="METHOD_NAME" value="testAdditionToCard" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -2254,20 +2249,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/logradum/Documents/Tools/danielQa15/automationpractice/src/test/resources/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationpractice_test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/automationpractice/src/test/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="TestNG.LogInTest" />
-      <item itemvalue="TestNG.SendMessageTest" />
       <item itemvalue="TestNG.Test" />
       <item itemvalue="TestNG.AddToCartTest" />
-      <item itemvalue="TestNG.AddToCartTest.testAdditionToCard" />
+      <item itemvalue="TestNG./Users/logradum/Documents/Tools/danielQa15/automationpractice/src/test/resources/testng.xml" />
+      <item itemvalue="TestNG.SendMessageTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.AddToCartTest" />
-        <item itemvalue="TestNG.AddToCartTest.testAdditionToCard" />
         <item itemvalue="TestNG.LogInTest" />
-        <item itemvalue="TestNG.Test" />
         <item itemvalue="TestNG.SendMessageTest" />
+        <item itemvalue="TestNG./Users/logradum/Documents/Tools/danielQa15/automationpractice/src/test/resources/testng.xml" />
+        <item itemvalue="TestNG.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -2287,41 +2292,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddToCardTest - 2018.12.07 at 21h 24m 06s.xml">
-      <configuration name="AddToCardTest" configurationId="TestNG" />
+    <history-entry file="AddToCartTest - 2018.12.09 at 15h 10m 08s.xml">
+      <configuration name="AddToCartTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddToCardTest - 2018.12.07 at 21h 33m 36s.xml">
-      <configuration name="AddToCardTest" configurationId="TestNG" />
+    <history-entry file="LogInTest - 2018.12.09 at 15h 10m 26s.xml">
+      <configuration name="LogInTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddToCardTest - 2018.12.07 at 21h 35m 42s.xml">
-      <configuration name="AddToCardTest" configurationId="TestNG" />
+    <history-entry file="SendMessageTest - 2018.12.09 at 15h 10m 44s.xml">
+      <configuration name="SendMessageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddToCardTest - 2018.12.07 at 21h 37m 23s.xml">
-      <configuration name="AddToCardTest" configurationId="TestNG" />
+    <history-entry file="AddToCartTest - 2018.12.09 at 15h 23m 27s.xml">
+      <configuration name="AddToCartTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddToCardTest - 2018.12.07 at 21h 38m 04s.xml">
-      <configuration name="AddToCardTest" configurationId="TestNG" />
+    <history-entry file="LogInTest - 2018.12.09 at 15h 23m 59s.xml">
+      <configuration name="LogInTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddToCardTest - 2018.12.07 at 21h 40m 31s.xml">
-      <configuration name="AddToCardTest" configurationId="TestNG" />
+    <history-entry file="AddToCartTest - 2018.12.09 at 15h 24m 48s.xml">
+      <configuration name="AddToCartTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddToCardTest - 2018.12.07 at 21h 46m 52s.xml">
-      <configuration name="AddToCardTest" configurationId="TestNG" />
+    <history-entry file="LogInTest - 2018.12.09 at 15h 25m 12s.xml">
+      <configuration name="LogInTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddToCardTest - 2018.12.07 at 21h 53m 22s.xml">
-      <configuration name="AddToCardTest" configurationId="TestNG" />
+    <history-entry file="AddToCartTest - 2018.12.09 at 15h 26m 08s.xml">
+      <configuration name="AddToCartTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddToCardTest - 2018.12.07 at 21h 55m 50s.xml">
-      <configuration name="AddToCardTest" configurationId="TestNG" />
+    <history-entry file="AddToCartTest - 2018.12.09 at 15h 28m 51s.xml">
+      <configuration name="AddToCartTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddToCardTest - 2018.12.08 at 11h 36m 49s.xml">
-      <configuration name="AddToCardTest" configurationId="TestNG" />
+    <history-entry file="AddToCartTest - 2018.12.09 at 15h 35m 09s.xml">
+      <configuration name="AddToCartTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="23" width="1400" height="877" extended-state="6" />
+    <frame x="40" y="23" width="1400" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7401274" visible="true" weight="0.26362297" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7401274" visible="true" weight="0.26362297" />
       <window_info id="Structure" order="1" sideWeight="0.25987262" side_tool="true" weight="0.26985294" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -2331,7 +2337,7 @@
       <window_info id="Favorites" order="7" sideWeight="0.50063694" side_tool="true" weight="0.26750183" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35414013" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35414013" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -2346,10 +2352,10 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.17083947" />
+      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.1413844" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3281825" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32768777" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -2403,24 +2409,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/trello-tests/trelloLog-20181125T233645.log" />
-    <entry file="file://$PROJECT_DIR$/trello-tests/trelloLog-20181125T233857.log" />
-    <entry file="file://$PROJECT_DIR$/trello-tests/trelloLog-20181125T234124.log" />
-    <entry file="file://$PROJECT_DIR$/trello-tests/src/test/java/com/telran/qa15/tests/TeamModificationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trello-tests/trelloLog-20181126T093919.log" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.141.0/2389197ede609d79c12de4a628374e0f69c6c1c4/selenium-api-3.141.0-sources.jar!/org/openqa/selenium/By.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trello-tests/src/test/java/com/telran/qa15/manager/BoardHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -2547,24 +2535,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automationpractice/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/actions-selenium/src/test/java/Droppable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="26" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -2579,20 +2553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/manager/AddressHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/tests/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -2614,20 +2574,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/tests/AddressDeletionTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/manager/ApplicationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2680,55 +2631,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automationpractice/src/test/java/Test/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/manager/AddressHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automationpractice/src/test/java/Manager/HelperBase.java">
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/manager/SessionHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/tests/AddressDeletionTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/tests/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automationpractice/src/test/java/Test/LogInTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/manager/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automationpractice/src/test/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/automationpractice/src/test/java/Manager/AppManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="168">
+          <caret line="51" column="51" lean-forward="true" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1357#1358#0" expanded="true" />
+            <element signature="e#1416#1417#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automationpractice/src/test/java/Test/AddToCartTest.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2267#2268#0" expanded="true" />
-            <element signature="e#2329#2330#0" expanded="true" />
-            <element signature="e#2388#2389#0" expanded="true" />
-            <element signature="e#2428#2429#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/automationpractice/src/test/java/Test/SendMessageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="99" selection-start-line="11" selection-start-column="99" selection-end-line="11" selection-end-column="99" />
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2737,18 +2724,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/automationpractice/src/test/java/Manager/ContactMessageHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+        <state relative-caret-position="300">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/automationpractice/src/test/java/Test/LogInTest.java">
+    <entry file="file://$PROJECT_DIR$/automationpractice/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="330">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automationpractice/src/test/java/Manager/HelperBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automationpractice/src/test/java/Test/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automationpractice/src/test/java/Manager/CartHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automationpractice/src/test/java/Test/AddToCartTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2807,7 +2840,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>automationpractice_test|automationpractice</last-edited>
+          <last-edited>addressbook-selenium-tests_test|addressbook-selenium-tests</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

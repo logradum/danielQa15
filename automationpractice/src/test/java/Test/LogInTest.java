@@ -12,6 +12,7 @@ public class LogInTest extends TestBase {
     app.getRegistrationHelper().typeLoginMail();
 
     app.getRegistrationHelper().clickLoginSubmit();
+
   }
 
 

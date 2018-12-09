@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SmokeTest1" verbose="1" >
+    <test name="Test" >
+        <classes>
+            <class name="Test.LogInTest" />
+        </classes>
+    </test>
+
+    <test name="SmokeTest2">
+        <classes>
+            <class name="Test.AddToCartTest"/>
+            <class name="Test.SendMessageTest"/>
+        </classes>
+    </test>
+</suite>

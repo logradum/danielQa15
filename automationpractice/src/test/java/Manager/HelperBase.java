@@ -29,4 +29,16 @@ public class HelperBase {
     Select select = new Select(element);
     select.selectByVisibleText(text);
   }
+  public void goToMainByLogo() {
+    click(By.xpath("//img[@class='logo img-responsive']"));
+  }
+
+  public void goToShoppingCardFromMain() {
+    click(By.xpath("//a[@title='View my shopping cart']"));
+  }
+
+
+  public int getRandomNumber(int i) {
+    return (int) (Math.random() * i - 1);
+  }
 }
