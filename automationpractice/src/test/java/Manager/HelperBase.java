@@ -10,7 +10,12 @@ public class HelperBase {
   public WebDriver wd;
 
   public void click(By locator) {
-    wd.findElement(locator).click();
+    if (isElementPresent(locator)) {
+      wd.findElement(locator).click();
+    } else {
+      System.out.println("No such element to click ----------------->" + locator.toString());
+    }
+
   }
 
   public void type(By locator, String s) {
@@ -29,6 +34,7 @@ public class HelperBase {
     Select select = new Select(element);
     select.selectByVisibleText(text);
   }
+
   public void goToMainByLogo() {
     click(By.xpath("//img[@class='logo img-responsive']"));
   }
@@ -38,7 +44,13 @@ public class HelperBase {
   }
 
 
-  public int getRandomNumber(int i) {
-    return (int) (Math.random() * i - 1);
+  public int getRandomNumberNotLessThanOne(int i) {
+    int random = ((int) (Math.random() * i - 1));
+    if (random > 0) return random;
+    return 1;
+  }
+
+  public boolean isElementPresent(By locator) {
+    return (wd.findElements(locator).size() > 0 ? true : false);
   }
 }

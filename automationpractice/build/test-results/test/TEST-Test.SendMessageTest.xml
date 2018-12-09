@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Test.SendMessageTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-12-09T13:02:44" hostname="MacBook-Air-Daniel.local" time="5.818">
+<testsuite name="Test.SendMessageTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-12-09T17:49:57" hostname="MacBook-Air-Daniel.local" time="5.919">
   <properties/>
-  <testcase name="testMessageForm" classname="Test.SendMessageTest" time="5.818"/>
+  <testcase name="testMessageForm" classname="Test.SendMessageTest" time="5.919"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[JavaScript error: resource://devtools/client/jsonview/converter-observer.js, line 74: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.contentType]
-console.error: BroadcastService: 
+  <system-err><![CDATA[console.error: BroadcastService: 
   receivedBroadcastMessage: handler for
   remote-settings/monitor_changes
   threw error:
@@ -12,5 +11,9 @@ console.error: BroadcastService:
   Stack:
     remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
 
+JavaScript error: https://www.facebook.com/rsrc.php/v3/yM/r/S99ETKMTa7I.js, line 55: TypeError: setting getter-only property "message"
+JavaScript error: https://www.facebook.com/rsrc.php/v3/yU/r/egAxgZVm5re.js, line 54: SecurityError: Permission denied to access property "fb_xdm_frame_https" on cross-origin object
+JavaScript error: https://www.facebook.com/rsrc.php/v3/yM/r/S99ETKMTa7I.js, line 55: TypeError: setting getter-only property "message"
+JavaScript error: https://www.facebook.com/rsrc.php/v3/yU/r/egAxgZVm5re.js, line 54: SecurityError: Permission denied to access property "fb_xdm_frame_https" on cross-origin object
 ]]></system-err>
 </testsuite>
