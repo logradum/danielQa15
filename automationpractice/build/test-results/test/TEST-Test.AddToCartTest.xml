@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Test.AddToCartTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-12-09T17:49:45" hostname="MacBook-Air-Daniel.local" time="12.448">
+<testsuite name="Test.AddToCartTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-12-31T13:49:09" hostname="MacBook-Air-Daniel.local" time="12.386">
   <properties/>
-  <testcase name="testAdditionToCard" classname="Test.AddToCartTest" time="12.448"/>
+  <testcase name="testAdditionToCard" classname="Test.AddToCartTest" time="12.386"/>
   <system-out><![CDATA[1 Product
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
