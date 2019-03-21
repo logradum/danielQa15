@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 @Test
 public class Droppable extends TestBase {
   public void testDroppable(){
-    wd.get("http://localhost/tests/drop.html");
+    wd.get("http://localhost/com.routePerfect.tests/drop.html");
     WebElement box = wd.findElement(By.cssSelector("#draggable"));
     WebElement target = wd.findElement(By.xpath("//div[@id='droppable']"));
 

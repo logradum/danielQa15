@@ -7,7 +7,7 @@ public class Draggable extends TestBase {
 
   @Test
   public void testDraggable(){
-    wd.get("http://localhost/tests/drag.html");
+    wd.get("http://localhost/com.routePerfect.tests/drag.html");
     WebElement box = wd.findElement(By.cssSelector("#draggable"));
 
     new Actions(wd).moveToElement(box).

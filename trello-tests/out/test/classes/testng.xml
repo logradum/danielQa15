@@ -2,9 +2,9 @@
 <suite name="TeamCRUDTEsting" verbose="1" >
     <test name="Teams" >
         <classes>
-            <class name="com.telran.qa15.tests.TeamCreationTest" />
-            <class name="com.telran.qa15.tests.TeamDeletionTest" />
-            <class name="com.telran.qa15.tests.TeamModificationTest" />
+            <class name="com.telran.qa15.com.routePerfect.tests.TeamCreationTest" />
+            <class name="com.telran.qa15.com.routePerfect.tests.TeamDeletionTest" />
+            <class name="com.telran.qa15.com.routePerfect.tests.TeamModificationTest" />
         </classes>
     </test>
 </suite>

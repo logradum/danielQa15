@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="actions-selenium_main" target="1.8" />
       <module name="actions-selenium_test" target="1.8" />
+      <module name="addressbook-selenium-com.routePerfect.tests_main" target="1.8" />
+      <module name="addressbook-selenium-com.routePerfect.tests_test" target="1.8" />
       <module name="addressbook-selenium-tests_main" target="1.8" />
       <module name="addressbook-selenium-tests_test" target="1.8" />
       <module name="automationpractice_main" target="1.8" />

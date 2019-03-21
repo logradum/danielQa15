@@ -59,7 +59,7 @@ public class ApplicationManager {
     //setting up login and password from properties file
     String target = System.getProperty("target","local");
     properties.load(new FileReader(new File(String
-            .format("/Users/logradum/Documents/Tools/danielQa15/trello-tests/src/test/resources/%s.properties",target))));
+            .format("/Users/logradum/Documents/Tools/danielQa15/trello-com.routePerfect.tests/src/test/resources/%s.properties",target))));
     sessionHelper.login(properties.getProperty("web.adminLogin")
             ,properties.getProperty("web.adminPassword"));
   }

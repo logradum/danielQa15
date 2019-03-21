@@ -23,7 +23,7 @@ public class TestBase {
     wd = new ChromeDriver();
     wd.manage().timeouts().implicitlyWait(5000, TimeUnit.SECONDS);
 
-    wd.get("https://www.yad2.co.il/vehicles/private-cars/toyota-corolla-run-x?manufacturer=16&model=944&year=2004-2007&price=8000-12000");
+    wd.get("https://www.yad2.co.il/vehicles/private-cars/toyota-corolla-run-x?manufacturer=16&com.routePerfect.model=944&year=2004-2007&price=8000-12000");
 
   }
 

@@ -3,18 +3,18 @@
 <suite name="Suite1" verbose="1" >
 <test name="Groups" >
     <classes>
-        <class name="com.telRan.addressbook.tests.GroupCreationTests" />
-        <class name="com.telRan.addressbook.tests.GroupModificationTests" />
-        <class name="com.telRan.addressbook.tests.GroupDeletionTests" />
+        <class name="com.telRan.addressbook.com.routePerfect.tests.GroupCreationTests" />
+        <class name="com.telRan.addressbook.com.routePerfect.tests.GroupModificationTests" />
+        <class name="com.telRan.addressbook.com.routePerfect.tests.GroupDeletionTests" />
 
     </classes>
 </test>
 
 <test name="Addresses">
     <classes>
-        <class name="com.telRan.addressbook.tests.AddressEntryCreationTests"/>
-        <class name="com.telRan.addressbook.tests.AddressModificationTests"/>
-        <class name="com.telRan.addressbook.tests.AddressDeletionTests"/>
+        <class name="com.telRan.addressbook.com.routePerfect.tests.AddressEntryCreationTests"/>
+        <class name="com.telRan.addressbook.com.routePerfect.tests.AddressModificationTests"/>
+        <class name="com.telRan.addressbook.com.routePerfect.tests.AddressDeletionTests"/>
     </classes>
 </test>
 </suite>
