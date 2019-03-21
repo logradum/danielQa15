@@ -1,12 +1,12 @@
-13:24:40.569 [main] INFO  com.telran.qa15.tests.TestBase - Start test: testBoardCreation
-13:24:46.172 [main] ERROR com.telran.qa15.tests.TestBase - 
-13:24:46.172 [main] ERROR com.telran.qa15.tests.TestBase - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-13:24:46.173 [main] ERROR com.telran.qa15.tests.TestBase - Error     org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (530.5250015258789, 821) is out of bounds of viewport width (1401) and height (803)
+13:24:40.569 [main] INFO  com.telran.qa15.tests.desktop.TestBase - Start test: testBoardCreation
+13:24:46.172 [main] ERROR com.telran.qa15.tests.desktop.TestBase -
+13:24:46.172 [main] ERROR com.telran.qa15.tests.desktop.TestBase - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+13:24:46.173 [main] ERROR com.telran.qa15.tests.desktop.TestBase - Error     org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (530.5250015258789, 821) is out of bounds of viewport width (1401) and height (803)
 Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
 System info: host: 'MacBook-Air-Daniel.local', ip: 'fe80:0:0:0:1cf2:4588:284d:9dd0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '9.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 63.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 2363, moz:profile: /var/folders/x1/88kmpgnx0l1..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 18.0.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
 Session ID: 7e692a48-1254-0a48-a976-25560b555be0
-13:24:46.173 [main] ERROR com.telran.qa15.tests.TestBase - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-13:24:46.173 [main] ERROR com.telran.qa15.tests.TestBase - 
-13:24:46.182 [main] INFO  com.telran.qa15.tests.TestBase - Stop test: testBoardCreation
+13:24:46.173 [main] ERROR com.telran.qa15.tests.desktop.TestBase - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+13:24:46.173 [main] ERROR com.telran.qa15.tests.desktop.TestBase -
+13:24:46.182 [main] INFO  com.telran.qa15.tests.desktop.TestBase - Stop test: testBoardCreation

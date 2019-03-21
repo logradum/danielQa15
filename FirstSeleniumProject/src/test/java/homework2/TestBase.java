@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeTest;
 
 import java.util.concurrent.TimeUnit;
 
-public class TestBase  {
+public class   TestBase  {
 
   WebDriver wd;
 

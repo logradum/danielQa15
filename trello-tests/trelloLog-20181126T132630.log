@@ -1,33 +1,33 @@
-13:26:49.589 [main] INFO  com.telran.qa15.tests.TestBase - Start test: testBoardCreation
-13:26:53.403 [main] ERROR com.telran.qa15.tests.TestBase - 
-13:26:53.403 [main] ERROR com.telran.qa15.tests.TestBase - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-13:26:53.404 [main] ERROR com.telran.qa15.tests.TestBase - Error     org.openqa.selenium.StaleElementReferenceException: The element reference of <span> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+13:26:49.589 [main] INFO  com.telran.qa15.tests.desktop.TestBase - Start test: testBoardCreation
+13:26:53.403 [main] ERROR com.telran.qa15.tests.desktop.TestBase -
+13:26:53.403 [main] ERROR com.telran.qa15.tests.desktop.TestBase - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+13:26:53.404 [main] ERROR com.telran.qa15.tests.desktop.TestBase - Error     org.openqa.selenium.StaleElementReferenceException: The element reference of <span> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
 System info: host: 'MacBook-Air-Daniel.local', ip: 'fe80:0:0:0:1cf2:4588:284d:9dd0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '9.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 63.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 2382, moz:profile: /var/folders/x1/88kmpgnx0l1..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 18.0.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
 Session ID: 30060087-3a45-ff4e-bb7b-64a49a01a4bf
-13:26:53.405 [main] ERROR com.telran.qa15.tests.TestBase - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-13:26:53.406 [main] ERROR com.telran.qa15.tests.TestBase - 
-13:26:56.068 [main] ERROR com.telran.qa15.tests.TestBase - 
-13:26:56.069 [main] ERROR com.telran.qa15.tests.TestBase - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-13:26:56.069 [main] ERROR com.telran.qa15.tests.TestBase - Error     org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (530.5250015258789, 821) is out of bounds of viewport width (1401) and height (803)
+13:26:53.405 [main] ERROR com.telran.qa15.tests.desktop.TestBase - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+13:26:53.406 [main] ERROR com.telran.qa15.tests.desktop.TestBase -
+13:26:56.068 [main] ERROR com.telran.qa15.tests.desktop.TestBase -
+13:26:56.069 [main] ERROR com.telran.qa15.tests.desktop.TestBase - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+13:26:56.069 [main] ERROR com.telran.qa15.tests.desktop.TestBase - Error     org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (530.5250015258789, 821) is out of bounds of viewport width (1401) and height (803)
 Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
 System info: host: 'MacBook-Air-Daniel.local', ip: 'fe80:0:0:0:1cf2:4588:284d:9dd0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '9.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 63.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 2382, moz:profile: /var/folders/x1/88kmpgnx0l1..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 18.0.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
 Session ID: 30060087-3a45-ff4e-bb7b-64a49a01a4bf
-13:26:56.069 [main] ERROR com.telran.qa15.tests.TestBase - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-13:26:56.070 [main] ERROR com.telran.qa15.tests.TestBase - 
-13:26:56.125 [main] ERROR com.telran.qa15.tests.TestBase - 
-13:26:56.125 [main] ERROR com.telran.qa15.tests.TestBase - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-13:26:56.125 [main] ERROR com.telran.qa15.tests.TestBase - Error     org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (530.5250015258789, 821) is out of bounds of viewport width (1401) and height (803)
+13:26:56.069 [main] ERROR com.telran.qa15.tests.desktop.TestBase - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+13:26:56.070 [main] ERROR com.telran.qa15.tests.desktop.TestBase -
+13:26:56.125 [main] ERROR com.telran.qa15.tests.desktop.TestBase -
+13:26:56.125 [main] ERROR com.telran.qa15.tests.desktop.TestBase - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+13:26:56.125 [main] ERROR com.telran.qa15.tests.desktop.TestBase - Error     org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (530.5250015258789, 821) is out of bounds of viewport width (1401) and height (803)
 Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
 System info: host: 'MacBook-Air-Daniel.local', ip: 'fe80:0:0:0:1cf2:4588:284d:9dd0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '9.0.1'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 63.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 2382, moz:profile: /var/folders/x1/88kmpgnx0l1..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 18.0.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
 Session ID: 30060087-3a45-ff4e-bb7b-64a49a01a4bf
-13:26:56.126 [main] ERROR com.telran.qa15.tests.TestBase - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-13:26:56.126 [main] ERROR com.telran.qa15.tests.TestBase - 
-13:26:56.143 [main] INFO  com.telran.qa15.tests.TestBase - Stop test: testBoardCreation
+13:26:56.126 [main] ERROR com.telran.qa15.tests.desktop.TestBase - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+13:26:56.126 [main] ERROR com.telran.qa15.tests.desktop.TestBase -
+13:26:56.143 [main] INFO  com.telran.qa15.tests.desktop.TestBase - Stop test: testBoardCreation

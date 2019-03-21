@@ -14,6 +14,10 @@
       <module name="FirstSeleniumProject_test" target="1.8" />
       <module name="issta_main" target="1.8" />
       <module name="issta_test" target="1.8" />
+      <module name="routeperfect-main-flow_main" target="1.8" />
+      <module name="routeperfect-main-flow_test" target="1.8" />
+      <module name="routeperfect_main_flow_main" target="1.8" />
+      <module name="routeperfect_main_flow_test" target="1.8" />
       <module name="trello-test_main" target="1.8" />
       <module name="trello-test_test" target="1.8" />
       <module name="trello-tests_main" target="1.8" />
@@ -22,6 +26,8 @@
       <module name="trello-testss_test" target="1.8" />
       <module name="trello_test_main" target="1.8" />
       <module name="trello_test_test" target="1.8" />
+      <module name="yad2_parser_auto_main" target="1.8" />
+      <module name="yad2_parser_auto_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
