@@ -100,10 +100,10 @@ public class TripPlannerHelper extends HelperBase {
 
 
 
-  public void fillStartInTripPlanner(String destinationShortName, String destinationConfirmFullWithComa) {
+  public void fillStartInTripPlanner(String destinationShortName, String destinationConfirmFull) {
     typeAndChooseFromDropdownTripPlanner(By.xpath("//input-combobox[@id='startIn']")
             , By.xpath("(//*[@placeholder='City/Region/Country'])[1]")
-            , destinationShortName, destinationConfirmFullWithComa);
+            , destinationShortName, destinationConfirmFull);
   }
 
   public void typeAndChooseFromDropdownTripPlanner(By selectorField, By fieldlaceHolderToConfirm, String destinationShortname, String destinationConfirmFull) {

@@ -5,6 +5,15 @@ public class Login {
   private String name;
   private String password;
 
+  public Login(String email, String name, String password) {
+    this.email = email;
+    this.name = name;
+    this.password = password;
+  }
+  public Login() {
+    this.email = email;
+    this.password = password;
+  }
 
   public String getEmail() {
     return email;
