@@ -13,7 +13,7 @@ public class TripPlannerHelper extends HelperBase {
     super(wd);
   }
 
-  public void chahgePaxTwoAdultsTwoKidsTripPlanner() {
+  public void changePaxTwoAdultsTwoKidsTripPlanner() {
     openPaxDropDownTripPlanner();
     openPaxOtherOptionsTripPlanner();
     openSelectPaxChildrenDropDownTripPlanner();
@@ -64,10 +64,8 @@ public class TripPlannerHelper extends HelperBase {
   public void selectEndInDateTripPlanner(Integer endDayFromNow) throws InterruptedException {
     Integer endDateFromNow = getEndInDateTripPlanner(endDayFromNow);
     cal = Calendar.getInstance();
-
     click(By.xpath("(//*[@placeholder='Not selected'])[2]"));
     System.out.println("date of end travel after getStartDate is "+endDateFromNow);
-    Thread.sleep(5000);
     WebElement endingIn = waitUntilPresent(By.xpath("//div[contains(text(),'"+ endDateFromNow +"')]"));
     endingIn.click();
   }
@@ -101,12 +99,13 @@ public class TripPlannerHelper extends HelperBase {
 
 
   public void fillStartInTripPlanner(String destinationShortName, String destinationConfirmFull) {
-    typeAndChooseFromDropdownTripPlanner(By.xpath("//input-combobox[@id='startIn']")
+    typeAndChooseFromDropdownTripPlanner(By.xpath("(//*[@placeholder='City/Region/Country'])[1]")
             , By.xpath("(//*[@placeholder='City/Region/Country'])[1]")
             , destinationShortName, destinationConfirmFull);
   }
 
   public void typeAndChooseFromDropdownTripPlanner(By selectorField, By fieldlaceHolderToConfirm, String destinationShortname, String destinationConfirmFull) {
+    waitUntilPresent(By.cssSelector("#startIn"));
     wd.findElement(selectorField).click();
     wd.findElement(fieldlaceHolderToConfirm).sendKeys(destinationShortname);
     WebElement startingIn = waitUntilPresent(By.xpath("//*[contains(text(),'"+ destinationConfirmFull +", ')]"));

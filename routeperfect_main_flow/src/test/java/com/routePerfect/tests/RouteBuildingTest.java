@@ -20,7 +20,7 @@ public class RouteBuildingTest extends TestBase {
             .setStartDayAfter(5)
             .setEndDayAfter(12));
 
-    TestBase.fw.getTripPlannerHelper().chahgePaxTwoAdultsTwoKidsTripPlanner();
+    TestBase.fw.getTripPlannerHelper().changePaxTwoAdultsTwoKidsTripPlanner();
     TestBase.fw.getTripPlannerHelper().clickSubmitButtonHomePageTripPlanner();
   }
 }
