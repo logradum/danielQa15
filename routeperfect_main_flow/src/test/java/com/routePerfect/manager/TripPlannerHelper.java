@@ -4,6 +4,8 @@ import com.routePerfect.model.TripPlanner;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 public class TripPlannerHelper extends HelperBase {
@@ -12,6 +14,7 @@ public class TripPlannerHelper extends HelperBase {
   public TripPlannerHelper(WebDriver wd) {
     super(wd);
   }
+
 
   public void changePaxTwoAdultsTwoKidsTripPlanner() {
     openPaxDropDownTripPlanner();
@@ -46,51 +49,72 @@ public class TripPlannerHelper extends HelperBase {
   }
 
   public void selectStartDateTripPlanner(Integer startDayFromNow) throws InterruptedException {
-    Integer startDateFromNow = getStartInDateTripPlanner(startDayFromNow);
-    cal = Calendar.getInstance();
+    Integer startDateFromNow = getStartInNumOfDateTripPlanner(startDayFromNow);
+
+    /*** isCurrentMOnth uses the same calStart calendar instance to compare so we should get instance "now" again ***/
+    calStart = Calendar.getInstance();
 
     click(By.cssSelector("[placeholder='Not selected']"));
     if(!isCurrentMonthForStartInTripPlanner(startDayFromNow)){
       click(By.cssSelector("[class='Icon Icon--ic_arrow_right flexy']"));
     }
 
-    //System.out.println("date of start travel after getStartDate is "+startDateFromNow);
     Thread.sleep(500);
     WebElement startingIn = waitUntilPresent(By.xpath("(//div[contains(text(),'"+ startDateFromNow
             +"')][@class='datepicker__calendar__month__day__num__active'])[1]"));
     startingIn.click();
   }
 
-  public void selectEndInDateTripPlanner(Integer endDayFromNow) throws InterruptedException {
-    Integer endDateFromNow = getEndInDateTripPlanner(endDayFromNow);
-    cal = Calendar.getInstance();
+  public void selectEndInDateTripPlanner(Integer endDayFromNow) {
+    Integer endDateFromNow = getEndInNumOfDateTripPlanner(endDayFromNow);
+
     click(By.xpath("(//*[@placeholder='Not selected'])[2]"));
-    System.out.println("date of end travel after getStartDate is "+endDateFromNow);
+    //System.out.println("date of end travel after getStartDate is "+endDateFromNow);
     WebElement endingIn = waitUntilPresent(By.xpath("//div[contains(text(),'"+ endDateFromNow +"')]"));
     endingIn.click();
   }
 
-  public int getEndInDateTripPlanner(int durationDaysFromStartIn) {
-    cal.add(Calendar.DATE, durationDaysFromStartIn);
-    return cal.get(Calendar.DAY_OF_MONTH);
+  public int getEndInNumOfDateTripPlanner(int durationDaysFromStartIn) {
+    calEnd.add(Calendar.DATE, durationDaysFromStartIn);
+    return calEnd.get(Calendar.DAY_OF_MONTH);
   }
 
-  public int getStartInDateTripPlanner(int dayOfMonthUntilToday) {
-    cal.add(Calendar.DATE, dayOfMonthUntilToday);
-    return cal.get(Calendar.DAY_OF_MONTH);
+  public int getStartInNumOfDateTripPlanner(int dayOfMonthUntilToday) {
+    calStart.add(Calendar.DATE, dayOfMonthUntilToday);
+    return calStart.get(Calendar.DAY_OF_MONTH);
+  }
+  public String getStartDateString() {
+    Calendar calStart = getStartInCalendarDate();
+    SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
+    String date = sdf.format(calStart.getTime());
+    return date;
+  }
+  public String getEndDateString() {
+    Calendar calEnd = getEndInCalendarDate();
+    SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
+    String date = sdf.format(calEnd.getTime());
+    return date;
+  }
+
+  public Calendar getStartInCalendarDate(){
+    return calStart;
+  }
+
+  public Calendar getEndInCalendarDate(){
+    return calEnd;
   }
 
 
 
   public boolean isCurrentMonthForStartInTripPlanner(Integer dayOfMonthFromToday) {
-    /***** get current month (+1 because months starts from 0) *****/
-    int monthCurrent = (cal.get(Calendar.MONTH))+1;
+    /***** get current month (+1 because months starting from 0) *****/
+    int monthCurrent = (calStart.get(Calendar.MONTH))+1;
     //System.out.println("current month is "+monthCurrent);
 
     //System.out.println("days to add"+dayOfMonthFromToday);
     /***** get month of starting route day *****/
-    cal.add(Calendar.DATE, dayOfMonthFromToday);
-    int monthTravelDate = (cal.get(Calendar.MONTH))+1;
+    calStart.add(Calendar.DATE, dayOfMonthFromToday);
+    int monthTravelDate = (calStart.get(Calendar.MONTH))+1;
     //System.out.println("month of travel is "+monthTravelDate);
 
     return monthCurrent == monthTravelDate;
@@ -127,4 +151,7 @@ public class TripPlannerHelper extends HelperBase {
     selectEndInDateTripPlanner(route.getEndDayAfter());
   }
 
+  public Integer getNumberOfDestinations() {
+    return wd.findElements(By.cssSelector("[class='ItineraryElement-inner']")).size();
+  }
 }

@@ -1,17 +1,17 @@
 package com.routePerfect.manager;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.util.Calendar;
 
 public class HelperBase {
  public WebDriver wd;
-  Calendar cal = Calendar.getInstance();
+  Calendar calStart = Calendar.getInstance();
+  Calendar calEnd = Calendar.getInstance();
+
 
   public HelperBase(WebDriver wd) {
     this.wd = wd;
@@ -47,5 +47,12 @@ public class HelperBase {
       wd.findElement(locator).sendKeys(text);
     }
   }
+
+  public void closeOnBoarding() {
+    while (isElementPresent(By.cssSelector("[class='Icon Icon--close']"))){
+      click(By.cssSelector("[class='Icon Icon--close']"));}
+  }
+
+
 
 }

@@ -39,7 +39,6 @@ public class AppManager {
     wd.get("https://test.routeperfect.com/");
     LoginHelper = new LoginHelper(wd);
     TripPlannerHelper = new TripPlannerHelper(wd);
-    //if this place is correct? tourplan disable while we not on trip-planner page
     TourPlanHelper = new TourPlanHelper(wd);
   }
 

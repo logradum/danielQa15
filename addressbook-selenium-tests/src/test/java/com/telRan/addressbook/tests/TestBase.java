@@ -29,6 +29,7 @@ public class TestBase {
   public void logTestStart(Method m){
     logger.info("Start test "+ m.getName());
   }
+
   @AfterMethod
   public void logTestStop(Method m){
     logger.info("Stop test"+ m.getName());

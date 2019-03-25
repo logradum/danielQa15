@@ -46,6 +46,9 @@ public class LoginHelper extends HelperBase {
     clickSignUpButtonLogin();
   }
 
+  public void fillLoginForm(Login Login) {
+   loginFromHomePage(Login.getEmail(), Login.getPassword());
+  }
 
   public void loginFromHomePage(String email, String password) {
     openSignUpPopUp();
@@ -73,4 +76,5 @@ public class LoginHelper extends HelperBase {
 
   private void openSignUpPopUp() { openLoginSignUpPopUp();
   }
+
 }
