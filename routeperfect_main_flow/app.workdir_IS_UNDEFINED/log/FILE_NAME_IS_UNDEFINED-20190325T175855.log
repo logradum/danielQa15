@@ -1,0 +1,6 @@
+15265 [main] INFO  com.routePerfect.tests.TestBase - Start test loginTest
+19374 [main] INFO  com.routePerfect.tests.TestBase - Stop testloginTest
+19385 [main] INFO  com.routePerfect.tests.TestBase - Start test buildRouteTest
+29275 [main] INFO  com.routePerfect.tests.TestBase - Stop testbuildRouteTest
+29279 [main] INFO  com.routePerfect.tests.TestBase - Start test addDestinationTest
+40922 [main] INFO  com.routePerfect.tests.TestBase - Stop testaddDestinationTest

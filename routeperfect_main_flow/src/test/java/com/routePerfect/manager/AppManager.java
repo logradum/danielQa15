@@ -1,10 +1,11 @@
 package com.routePerfect.manager;
+import com.routePerfect.tests.TestBase;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.BrowserType;
 import org.openqa.selenium.safari.SafariDriver;
-
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 import java.util.concurrent.TimeUnit;
 
 public class AppManager {
@@ -12,7 +13,8 @@ public class AppManager {
   private LoginHelper LoginHelper;
   private TourPlanHelper TourPlanHelper;
   private String browser;
-  WebDriver wd;
+  EventFiringWebDriver wd;
+
 
   public LoginHelper getLoginHelper() {
     return LoginHelper;
@@ -27,13 +29,14 @@ public class AppManager {
   public void start() {
 
     if (browser.equals(BrowserType.CHROME)){
-      wd = new ChromeDriver();
+      wd = new EventFiringWebDriver(new ChromeDriver());
     } else if (browser.equals(BrowserType.FIREFOX)){
-      wd = new FirefoxDriver();
+      wd = new EventFiringWebDriver(new FirefoxDriver());
     } else if (browser.equals((BrowserType.SAFARI))){
-      wd = new SafariDriver();
+      wd = new EventFiringWebDriver(new SafariDriver());
     }
 
+    wd.register(new TestBase.MyListener());
     wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     wd.manage().window().maximize();
     wd.get("https://test.routeperfect.com/");
