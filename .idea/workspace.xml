@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f01d331-5e36-46f7-b844-2c800ff46d6d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/FirstSeleniumProject_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/FirstSeleniumProject_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/FirstSeleniumProject_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/FirstSeleniumProject_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/automationpractice_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/automationpractice_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/cv-bank/cv-bank_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/cv-bank/cv-bank_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/cv-bank/cv-bank_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/cv-bank/cv-bank_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/routeperfect-main-flow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/routeperfect-main-flow.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/routeperfect-main-flow_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/routeperfect-main-flow_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/routeperfect-main-flow_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/routeperfect-main-flow_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/trello-tests_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/trello-tests_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4f01d331-5e36-46f7-b844-2c800ff46d6d" name="Default Changelist" comment="" />
     <list id="7f7ce0aa-16f4-43db-b89c-41829c03c8ed" name="chooseDepartureDirection" comment="" />
     <list id="ca16bd64-caa0-42f3-86b6-eeb1737ad02d" name="createUser" comment="" />
     <list id="069f4ffa-ce6c-4112-938a-67e6af6ff7d8" name="start" comment="" />
