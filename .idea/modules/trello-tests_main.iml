@@ -3,10 +3,7 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/../../trello-tests/out/production/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../trello-tests/src/main">
-      <sourceFolder url="file://$MODULE_DIR$/../../trello-tests/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../trello-tests/src/main/resources" type="java-resource" />
-    </content>
+    <content url="file://$MODULE_DIR$/../../trello-tests/src/main" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

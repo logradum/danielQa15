@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f01d331-5e36-46f7-b844-2c800ff46d6d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/FirstSeleniumProject_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/FirstSeleniumProject_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/FirstSeleniumProject_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/FirstSeleniumProject_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/automationpractice_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/automationpractice_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/cv-bank/cv-bank_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/cv-bank/cv-bank_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/cv-bank/cv-bank_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/cv-bank/cv-bank_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/routeperfect-main-flow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/routeperfect-main-flow.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/routeperfect-main-flow_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/routeperfect-main-flow_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/routeperfect-main-flow_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/routeperfect-main-flow_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/trello-tests_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/trello-tests_main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-selenium-tests/out/test/classes/com/telRan/addressbook/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-selenium-tests/out/test/classes/com/telRan/addressbook/tests/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routeperfect_main_flow/log-20190325T132103.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routeperfect_main_flow/out/test/classes/com/routePerfect/manager/AppManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/routeperfect_main_flow/out/test/classes/com/routePerfect/manager/AppManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routeperfect_main_flow/out/test/classes/com/routePerfect/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/routeperfect_main_flow/out/test/classes/com/routePerfect/tests/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routeperfect_main_flow/out/test/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/routeperfect_main_flow/out/test/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routeperfect_main_flow/src/test/java/com/routePerfect/manager/AppManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/routeperfect_main_flow/src/test/java/com/routePerfect/manager/AppManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routeperfect_main_flow/src/test/java/com/routePerfect/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/routeperfect_main_flow/src/test/java/com/routePerfect/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routeperfect_main_flow/src/test/resources/logback.xml" beforeDir="false" />
     </list>
     <list id="7f7ce0aa-16f4-43db-b89c-41829c03c8ed" name="chooseDepartureDirection" comment="" />
     <list id="ca16bd64-caa0-42f3-86b6-eeb1737ad02d" name="createUser" comment="" />
@@ -215,83 +217,32 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="91501185">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+          <entry key="log" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+          <entry key="Log" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="FirstSeleniumProject" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/src/test/java/com/routePerfect/manager/AppManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/src/test/java/com/routePerfect/tests/TestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#731#732#0" expanded="true" />
-                <element signature="e#752#753#0" expanded="true" />
-                <element signature="e#1253#1254#0" expanded="true" />
-                <element signature="e#1302#1303#0" expanded="true" />
-                <element signature="e#1658#1659#0" expanded="true" />
-                <element signature="e#1678#1679#0" expanded="true" />
-                <element signature="e#953#954#0" expanded="true" />
-                <element signature="e#1002#1003#0" expanded="true" />
-                <element signature="e#1055#1056#0" expanded="true" />
-                <element signature="e#1102#1103#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/src/test/resources/logback2.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-393">
-              <caret line="22" column="69" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/src/test/resources/testng.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/src/test/resources/logback.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -321,9 +272,9 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$/FirstSeleniumProject" value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.8-bin/divx0s2uj4thofgytb7gf9fsi/gradle-4.8" />
-        <entry key="$PROJECT_DIR$/actions-selenium" value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.8-bin/divx0s2uj4thofgytb7gf9fsi/gradle-4.8" />
-        <entry key="$PROJECT_DIR$/addressbook-selenium-tests" value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.8-bin/divx0s2uj4thofgytb7gf9fsi/gradle-4.8" />
+        <entry key="$PROJECT_DIR$/FirstSeleniumProject" value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.8-all/41c9mvq2w0645xx6nsenaerjl/gradle-4.8" />
+        <entry key="$PROJECT_DIR$/actions-selenium" value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.8-all/41c9mvq2w0645xx6nsenaerjl/gradle-4.8" />
+        <entry key="$PROJECT_DIR$/addressbook-selenium-tests" value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.8-all/41c9mvq2w0645xx6nsenaerjl/gradle-4.8" />
         <entry key="$PROJECT_DIR$/automationpractice" value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.8-bin/divx0s2uj4thofgytb7gf9fsi/gradle-4.8" />
         <entry key="$PROJECT_DIR$/com.project.issta" value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.8-bin/divx0s2uj4thofgytb7gf9fsi/gradle-4.8" />
         <entry key="$PROJECT_DIR$/routeperfect-main-flow" value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.8-all/41c9mvq2w0645xx6nsenaerjl/gradle-4.8" />
@@ -1912,23 +1863,23 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/FirstSeleniumProject" value="7725102481000" />
+        <entry key="$PROJECT_DIR$/FirstSeleniumProject" value="7768830899000" />
         <entry key="$PROJECT_DIR$/FirstSeleniumProject/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/FirstSeleniumProject/build.gradle" value="2814587027" />
         <entry key="$PROJECT_DIR$/FirstSeleniumProject/cv-bank/build.gradle" value="1595309724" />
         <entry key="$PROJECT_DIR$/FirstSeleniumProject/gradle/wrapper/gradle-wrapper.properties" value="2585518924" />
         <entry key="$PROJECT_DIR$/FirstSeleniumProject/settings.gradle" value="2907541808" />
-        <entry key="$PROJECT_DIR$/actions-selenium" value="6183604794000" />
+        <entry key="$PROJECT_DIR$/actions-selenium" value="6215064744000" />
         <entry key="$PROJECT_DIR$/actions-selenium/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/actions-selenium/build.gradle" value="145759324" />
         <entry key="$PROJECT_DIR$/actions-selenium/gradle/wrapper/gradle-wrapper.properties" value="2585518924" />
         <entry key="$PROJECT_DIR$/actions-selenium/settings.gradle" value="1152532632" />
-        <entry key="$PROJECT_DIR$/addressbook-selenium-tests" value="6183414472000" />
+        <entry key="$PROJECT_DIR$/addressbook-selenium-tests" value="6215064745000" />
         <entry key="$PROJECT_DIR$/addressbook-selenium-tests/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/addressbook-selenium-tests/build.gradle" value="3085361086" />
         <entry key="$PROJECT_DIR$/addressbook-selenium-tests/gradle/wrapper/gradle-wrapper.properties" value="2585518924" />
         <entry key="$PROJECT_DIR$/addressbook-selenium-tests/settings.gradle" value="4204503707" />
-        <entry key="$PROJECT_DIR$/automationpractice" value="6179064752000" />
+        <entry key="$PROJECT_DIR$/automationpractice" value="6215064745000" />
         <entry key="$PROJECT_DIR$/automationpractice/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/automationpractice/build.gradle" value="2385613904" />
         <entry key="$PROJECT_DIR$/automationpractice/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
@@ -1938,26 +1889,26 @@
         <entry key="$PROJECT_DIR$/com.project.issta/build.gradle" value="3960747077" />
         <entry key="$PROJECT_DIR$/com.project.issta/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
         <entry key="$PROJECT_DIR$/com.project.issta/settings.gradle" value="1071853769" />
-        <entry key="$PROJECT_DIR$/routeperfect-main-flow" value="6211318344000" />
+        <entry key="$PROJECT_DIR$/routeperfect-main-flow" value="6215064736000" />
         <entry key="$PROJECT_DIR$/routeperfect-main-flow/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/routeperfect-main-flow/build.gradle" value="539335650" />
         <entry key="$PROJECT_DIR$/routeperfect-main-flow/gradle/wrapper/gradle-wrapper.properties" value="2585518924" />
         <entry key="$PROJECT_DIR$/routeperfect-main-flow/settings.gradle" value="1078629186" />
-        <entry key="$PROJECT_DIR$/routeperfect_main_flow" value="6211910438000" />
+        <entry key="$PROJECT_DIR$/routeperfect_main_flow" value="6215064745000" />
         <entry key="$PROJECT_DIR$/routeperfect_main_flow/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/routeperfect_main_flow/build.gradle" value="3058408564" />
         <entry key="$PROJECT_DIR$/routeperfect_main_flow/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
         <entry key="$PROJECT_DIR$/routeperfect_main_flow/settings.gradle" value="2700006586" />
-        <entry key="$PROJECT_DIR$/trello-tests" value="4630344891000" />
+        <entry key="$PROJECT_DIR$/trello-tests" value="4661298595000" />
         <entry key="$PROJECT_DIR$/trello-tests/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/trello-tests/build.gradle" value="3619736984" />
         <entry key="$PROJECT_DIR$/trello-tests/settings.gradle" value="4065170229" />
-        <entry key="$PROJECT_DIR$/yad2Parser" value="6198862082000" />
+        <entry key="$PROJECT_DIR$/yad2Parser" value="6215064738000" />
         <entry key="$PROJECT_DIR$/yad2Parser/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/yad2Parser/build.gradle" value="3567699522" />
         <entry key="$PROJECT_DIR$/yad2Parser/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
         <entry key="$PROJECT_DIR$/yad2Parser/settings.gradle" value="1343941761" />
-        <entry key="$PROJECT_DIR$/yad2_parser_auto" value="6198963568000" />
+        <entry key="$PROJECT_DIR$/yad2_parser_auto" value="6215064747000" />
         <entry key="$PROJECT_DIR$/yad2_parser_auto/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/yad2_parser_auto/build.gradle" value="224487954" />
         <entry key="$PROJECT_DIR$/yad2_parser_auto/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
@@ -3323,7 +3274,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="111" />
     <option name="y" value="94" />
     <option name="width" value="1440" />
@@ -3338,7 +3289,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -3346,66 +3296,18 @@
               <item name="FirstSeleniumProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="routeperfect_main_flow" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="FirstSeleniumProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="routeperfect_main_flow" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstSeleniumProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="routeperfect_main_flow" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstSeleniumProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="routeperfect_main_flow" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstSeleniumProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="routeperfect_main_flow" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="routePerfect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstSeleniumProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="routeperfect_main_flow" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="routePerfect" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstSeleniumProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="routeperfect_main_flow" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstSeleniumProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="routeperfect_main_flow" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553586736937" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553768027154" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/FirstSeleniumProject/src/test/java" />
@@ -3557,9 +3459,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_logradum_Documents_Tools_danielQa15_routeperfect_main_flow_src_test_resources_testng_xml - 2019.03.25 at 18h 12m 00s.xml">
-      <configuration name="/Users/logradum/Documents/Tools/danielQa15/routeperfect_main_flow/src/test/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_logradum_Documents_Tools_danielQa15_routeperfect_main_flow_src_test_resources_testng_xml - 2019.03.25 at 18h 20m 16s.xml">
       <configuration name="/Users/logradum/Documents/Tools/danielQa15/routeperfect_main_flow/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -3587,27 +3486,30 @@
     <history-entry file="_Users_logradum_Documents_Tools_danielQa15_routeperfect_main_flow_src_test_resources_testng_xml - 2019.03.25 at 19h 06m 44s.xml">
       <configuration name="/Users/logradum/Documents/Tools/danielQa15/routeperfect_main_flow/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_Users_logradum_Documents_Tools_danielQa15_routeperfect_main_flow_src_test_resources_testng_xml - 2019.03.28 at 11h 47m 23s.xml">
+      <configuration name="/Users/logradum/Documents/Tools/danielQa15/routeperfect_main_flow/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="111" y="94" width="1440" height="877" extended-state="0" />
+    <frame x="40" y="23" width="1398" height="877" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7385496" visible="true" weight="0.20958512" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7385496" visible="true" weight="0.21238938" />
       <window_info id="Structure" order="1" sideWeight="0.26145038" side_tool="true" weight="0.21870397" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" sideWeight="0.49816176" weight="0.3297568" />
+      <window_info id="Learn" order="6" sideWeight="0.49816176" weight="0.32964602" />
       <window_info id="Favorites" order="7" sideWeight="0.50063694" side_tool="true" weight="0.26750183" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32866243" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33248407" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33248407" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3299363" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32866243" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32866243" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.30828026" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32611465" />
@@ -3674,9 +3576,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/gradlew">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/gradlew.bat">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -3729,10 +3628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
-          <folding>
-            <element signature="e#1345#1346#0" expanded="true" />
-            <element signature="e#1364#1365#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3867,34 +3762,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/log-20190325T165931.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/log-20190325T171202.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/log-20190325T172650.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/log-20190325T132103.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/log-20190325T165931.log" />
+    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/log-20190325T171202.log" />
+    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/log-20190325T172650.log" />
+    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/log-20190325T132103.log" />
     <entry file="file://$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/com/telRan/addressbook/manager/AddressHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
-          <folding>
-            <element signature="e#1624#1625#0" expanded="true" />
-            <element signature="e#1697#1698#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3928,69 +3806,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/src/test/log/log-20190325T182801.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/log-20190325T183007.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/log-20190325T182653.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/src/test/log/log-20190325T182801.log" />
+    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/log-20190325T183007.log" />
+    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/log-20190325T182653.log" />
     <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/src/test/logs/error.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/src/test/logs/debug.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/src/test/java/com/routePerfect/tests/RouteBuildingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="3" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/src/test/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/src/test/resources/logback2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-393">
-          <caret line="22" column="69" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/src/test/resources/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/src/test/java/com/routePerfect/tests/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#1253#1254#0" expanded="true" />
-            <element signature="e#1302#1303#0" expanded="true" />
-            <element signature="e#1658#1659#0" expanded="true" />
-            <element signature="e#1678#1679#0" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-            <element signature="e#1055#1056#0" expanded="true" />
-            <element signature="e#1102#1103#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/src/test/logs/log-20190325T185040.log" />
+    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/log-20190325T183900.log" />
+    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/log-20190325T184154.log" />
+    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/log-20190325T190558.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="1800">
+          <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
         </state>
       </provider>
     </entry>
@@ -4001,26 +3832,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/src/test/logs/log-20190325T185040.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/src/test/java/com/routePerfect/tests/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/log-20190325T183900.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/src/test/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/log-20190325T184154.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/log-20190325T190558.log">
+    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/log-20190328T114630.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="1800">
-          <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
+        <state relative-caret-position="-659" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/src/test/resources/logback2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/src/test/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/src/test/java/com/routePerfect/tests/RouteBuildingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routeperfect_main_flow/src/test/java/com/routePerfect/manager/AppManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="252">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

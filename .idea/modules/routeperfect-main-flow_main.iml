@@ -3,11 +3,11 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/../../routeperfect-main-flow/out/production/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../routeperfect-main-flow/src/main">
-      <sourceFolder url="file://$MODULE_DIR$/../../routeperfect-main-flow/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../routeperfect-main-flow/src/main/resources" type="java-resource" />
-    </content>
+    <content url="file://$MODULE_DIR$/../../routeperfect-main-flow/src/main" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.2.3" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.2.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
   </component>
 </module>
